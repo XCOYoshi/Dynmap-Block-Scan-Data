@@ -1,3 +1,0 @@
-modname:rftoolscontrol
-
-customblock:id=%tank,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/-1:-1:-1:-1:-1:-1

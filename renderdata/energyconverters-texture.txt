@@ -1,0 +1,17 @@
+modname:energyconverters
+
+texture:id=txt0001,filename=assets/energyconverters/textures/blocks/energy_consumer_tr4.png,xcount=1,ycount=1
+texture:id=txt0003,filename=assets/energyconverters/textures/blocks/energy_consumer_rf.png,xcount=1,ycount=1
+texture:id=txt0002,filename=assets/energyconverters/textures/blocks/energy_consumer_fe.png,xcount=1,ycount=1
+texture:id=txt0005,filename=assets/energyconverters/textures/blocks/energy_bridge_casing.png,xcount=1,ycount=1
+texture:id=txt0004,filename=assets/energyconverters/textures/blocks/energy_bridge_core.png,xcount=1,ycount=1
+texture:id=txt0007,filename=assets/energyconverters/textures/blocks/energy_producer_tr4.png,xcount=1,ycount=1
+texture:id=txt0006,filename=assets/energyconverters/textures/blocks/energy_producer_rf.png,xcount=1,ycount=1
+texture:id=txt0008,filename=assets/energyconverters/textures/blocks/energy_producer_fe.png,xcount=1,ycount=1
+block:id=%energy_consumer_mj,data=0,patch0=0:txt0001,patch1=0:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=0:txt0001,patch5=0:txt0001,stdrot=true
+block:id=%energy_consumer_fe,data=0,patch0=0:txt0002,patch1=0:txt0002,patch2=0:txt0002,patch3=0:txt0002,patch4=0:txt0002,patch5=0:txt0002,stdrot=true
+block:id=%energy_consumer_rf,data=0,patch0=0:txt0003,patch1=0:txt0003,patch2=0:txt0003,patch3=0:txt0003,patch4=0:txt0003,patch5=0:txt0003,stdrot=true
+block:id=%energy_bridge,data=0,patch0=0:txt0004,patch1=0:txt0004,patch2=0:txt0004,patch3=0:txt0004,patch4=0:txt0004,patch5=0:txt0004,patch6=0:txt0005,patch7=0:txt0005,patch8=0:txt0005,patch9=0:txt0005,patch10=0:txt0005,patch11=0:txt0005,transparency=SEMITRANSPARENT,stdrot=true
+block:id=%energy_producer_rf,data=0,patch0=0:txt0006,patch1=0:txt0006,patch2=0:txt0006,patch3=0:txt0006,patch4=0:txt0006,patch5=0:txt0006,stdrot=true
+block:id=%energy_producer_mj,data=0,patch0=0:txt0007,patch1=0:txt0007,patch2=0:txt0007,patch3=0:txt0007,patch4=0:txt0007,patch5=0:txt0007,stdrot=true
+block:id=%energy_producer_fe,data=0,patch0=0:txt0008,patch1=0:txt0008,patch2=0:txt0008,patch3=0:txt0008,patch4=0:txt0008,patch5=0:txt0008,stdrot=true

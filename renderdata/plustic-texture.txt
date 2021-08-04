@@ -1,0 +1,15 @@
+modname:plustic
+
+texture:id=txt0001,filename=assets/plustic/textures/blocks/alumiteblock.png,xcount=1,ycount=1
+texture:id=txt0003,filename=assets/plustic/textures/blocks/mirionblock.png,xcount=1,ycount=1
+texture:id=txt0002,filename=assets/plustic/textures/blocks/osgloglasblock.png,xcount=1,ycount=1
+texture:id=txt0005,filename=assets/plustic/textures/blocks/centrifuge_top.png,xcount=1,ycount=1
+texture:id=txt0004,filename=assets/plustic/textures/blocks/centrifuge_core.png,xcount=1,ycount=1
+texture:id=txt0007,filename=assets/plustic/textures/blocks/osmiridiumblock.png,xcount=1,ycount=1
+texture:id=txt0006,filename=assets/plustic/textures/blocks/centrifuge_tank.png,xcount=1,ycount=1
+block:id=%alumiteblock,data=0,patch0=0:txt0001,patch1=0:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=0:txt0001,patch5=0:txt0001,stdrot=true
+block:id=%osgloglasblock,data=0,patch0=0:txt0002,patch1=0:txt0002,patch2=0:txt0002,patch3=0:txt0002,patch4=0:txt0002,patch5=0:txt0002,stdrot=true
+block:id=%mirionblock,data=0,patch0=0:txt0003,patch1=0:txt0003,patch2=0:txt0003,patch3=0:txt0003,patch4=0:txt0003,patch5=0:txt0003,stdrot=true
+block:id=%centrifuge,data=1,patch0=0:txt0004,patch1=0:txt0005,patch2=0:txt0004,patch3=0:txt0004,patch4=0:txt0005,patch5=0:txt0004,transparency=TRANSPARENT,stdrot=true
+block:id=%centrifuge,data=0,patch0=0:txt0006,patch1=0:txt0005,patch2=0:txt0006,patch3=0:txt0006,patch4=0:txt0005,patch5=0:txt0006,transparency=TRANSPARENT,stdrot=true
+block:id=%osmiridiumblock,data=0,patch0=0:txt0007,patch1=0:txt0007,patch2=0:txt0007,patch3=0:txt0007,patch4=0:txt0007,patch5=0:txt0007,stdrot=true

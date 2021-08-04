@@ -1,0 +1,5 @@
+modname:agricraft
+
+texture:id=txt0001,filename=assets/minecraft/textures/crops.png,xcount=1,ycount=1
+block:id=%crop,data=0,patch0=0:txt0001,patch1=0:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=0:txt0001,patch5=0:txt0001,patch6=0:txt0001,patch7=0:txt0001,patch8=0:txt0001,patch9=0:txt0001,patch10=0:txt0001,patch11=0:txt0001,patch12=0:txt0001,patch13=0:txt0001,patch14=0:txt0001,patch15=0:txt0001,patch16=0:txt0001,patch17=0:txt0001,patch18=0:txt0001,patch19=0:txt0001,patch20=0:txt0001,patch21=0:txt0001,patch22=0:txt0001,patch23=0:txt0001,transparency=TRANSPARENT,stdrot=true
+block:id=%seed_analyzer,data=0,transparency=TRANSPARENT,stdrot=true

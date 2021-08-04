@@ -1,3 +1,0 @@
-modname:mcjtylib
-
-customblock:id=%multipart,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer

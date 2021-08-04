@@ -1,0 +1,4 @@
+modname:agricraft
+
+customblock:id=%crop,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.187500:0.875000:0.187500/4:3:0:2:1:5,cuboid1=0.812500:0.000000:0.125000/0.875000:0.875000:0.187500/10:9:6:8:7:11,cuboid2=0.125000:0.000000:0.812500/0.187500:0.875000:0.875000/16:15:12:14:13:17,cuboid3=0.812500:0.000000:0.812500/0.875000:0.875000:0.875000/22:21:18:20:19:23
+customblock:id=%seed_analyzer,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer

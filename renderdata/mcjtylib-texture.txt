@@ -1,3 +1,0 @@
-modname:mcjtylib
-
-block:id=%multipart,data=0,transparency=TRANSPARENT,stdrot=true

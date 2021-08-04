@@ -1,0 +1,8 @@
+modname:compactmachines3
+
+customblock:id=%fieldprojector,data=4,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.375000:1.000000/4:3:0:2:1:5,cuboid1=0.437500:0.375000:0.437500/0.562500:0.750000:0.562500/10:9:6:8:7:11
+customblock:id=%fieldprojector,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.375000:1.000000/4:3:0:2:1:5,cuboid1=0.437500:0.375000:0.437500/0.562500:0.750000:0.562500/10:9:6:8:7:11
+customblock:id=%fieldprojector,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.375000:1.000000/4:3:0:2:1:5,cuboid1=0.437500:0.375000:0.437500/0.562500:0.750000:0.562500/10:9:6:8:7:11
+customblock:id=%fieldprojector,data=5,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.375000:1.000000/4:3:0:2:1:5,cuboid1=0.437500:0.375000:0.437500/0.562500:0.750000:0.562500/10:9:6:8:7:11
+customblock:id=%fieldprojector,data=3,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.375000:1.000000/4:3:0:2:1:5,cuboid1=0.437500:0.375000:0.437500/0.562500:0.750000:0.562500/10:9:6:8:7:11
+customblock:id=%fieldprojector,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.375000:1.000000/4:3:0:2:1:5,cuboid1=0.437500:0.375000:0.437500/0.562500:0.750000:0.562500/10:9:6:8:7:11
