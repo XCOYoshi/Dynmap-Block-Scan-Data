@@ -1,0 +1,15 @@
+# NotEnoughWands 1.2.3
+version:1.7
+modname:NotEnoughWands
+
+
+cfgfile:config/NotEnoughWands.cfg
+
+
+texturepath:assets/notenoughwands/textures/blocks/
+texture:id=minecraft/MISSING_ICON_BLOCK_1875_blockLight,filename=assets/minecraft/textures/blocks/MISSING_ICON_BLOCK_1875_blockLight.png
+
+
+
+# %lightBlock:* (lightBlock), render=(STANDARD), opaque=false,cls=romelo333.notenoughwands.blocks.LightBlock
+block:id=%lightBlock,data=*,stdrot=true,face0-5=0:minecraft/MISSING_ICON_BLOCK_1875_blockLight

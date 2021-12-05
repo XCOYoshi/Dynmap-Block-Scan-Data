@@ -1,0 +1,416 @@
+# galaxymod 1.4.4
+version:1.7
+modname:galaxymod
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/galaxymod/textures/blocks/
+texture:id=galaxymod/blackrock,filename=assets/galaxymod/textures/blocks/blackrock.png
+texture:id=galaxymod/bloodsand,filename=assets/galaxymod/textures/blocks/bloodsand.png
+texture:id=galaxymod/bloodstone,filename=assets/galaxymod/textures/blocks/bloodstone.png
+texture:id=galaxymod/blueprintblock,filename=assets/galaxymod/textures/blocks/blueprintblock.png
+texture:id=galaxymod/bonestone,filename=assets/galaxymod/textures/blocks/bonestone.png
+texture:id=galaxymod/brightstone,filename=assets/galaxymod/textures/blocks/brightstone.png
+texture:id=galaxymod/edenaluminumore,filename=assets/galaxymod/textures/blocks/edenaluminumore.png
+texture:id=galaxymod/edencoalore,filename=assets/galaxymod/textures/blocks/edencoalore.png
+texture:id=galaxymod/edencobblerock,filename=assets/galaxymod/textures/blocks/edencobblerock.png
+texture:id=galaxymod/edencopperore,filename=assets/galaxymod/textures/blocks/edencopperore.png
+texture:id=galaxymod/edendeshore,filename=assets/galaxymod/textures/blocks/edendeshore.png
+texture:id=galaxymod/edendiamondore,filename=assets/galaxymod/textures/blocks/edendiamondore.png
+texture:id=galaxymod/edenemeraldore,filename=assets/galaxymod/textures/blocks/edenemeraldore.png
+texture:id=galaxymod/edenflower_,filename=assets/galaxymod/textures/blocks/edenflower_.png
+texture:id=galaxymod/edenflower_blue,filename=assets/galaxymod/textures/blocks/edenflower_blue.png
+texture:id=galaxymod/edenflower_cyan,filename=assets/galaxymod/textures/blocks/edenflower_cyan.png
+texture:id=galaxymod/edenflower_green,filename=assets/galaxymod/textures/blocks/edenflower_green.png
+texture:id=galaxymod/edenflower_orange,filename=assets/galaxymod/textures/blocks/edenflower_orange.png
+texture:id=galaxymod/edenflower_purple,filename=assets/galaxymod/textures/blocks/edenflower_purple.png
+texture:id=galaxymod/edenflower_red,filename=assets/galaxymod/textures/blocks/edenflower_red.png
+texture:id=galaxymod/edenflower_yellow,filename=assets/galaxymod/textures/blocks/edenflower_yellow.png
+texture:id=galaxymod/edenglass0,filename=assets/galaxymod/textures/blocks/edenglass0.png
+texture:id=galaxymod/edengoldengrass,filename=assets/galaxymod/textures/blocks/edengoldengrass.png
+texture:id=galaxymod/edengoldengrass_side,filename=assets/galaxymod/textures/blocks/edengoldengrass_side.png
+texture:id=galaxymod/edengoldore,filename=assets/galaxymod/textures/blocks/edengoldore.png
+texture:id=galaxymod/edengrass,filename=assets/galaxymod/textures/blocks/edengrass.png
+texture:id=galaxymod/edengrass_side,filename=assets/galaxymod/textures/blocks/edengrass_side.png
+texture:id=galaxymod/edengravel,filename=assets/galaxymod/textures/blocks/edengravel.png
+texture:id=galaxymod/edenironore,filename=assets/galaxymod/textures/blocks/edenironore.png
+texture:id=galaxymod/edenlapisore,filename=assets/galaxymod/textures/blocks/edenlapisore.png
+texture:id=galaxymod/edenmeteoricironore,filename=assets/galaxymod/textures/blocks/edenmeteoricironore.png
+texture:id=galaxymod/edenredstoneore,filename=assets/galaxymod/textures/blocks/edenredstoneore.png
+texture:id=galaxymod/edenrock,filename=assets/galaxymod/textures/blocks/edenrock.png
+texture:id=galaxymod/edenrockbricks,filename=assets/galaxymod/textures/blocks/edenrockbricks.png
+texture:id=galaxymod/edensacredstone,filename=assets/galaxymod/textures/blocks/edensacredstone.png
+texture:id=galaxymod/edensoil,filename=assets/galaxymod/textures/blocks/edensoil.png
+texture:id=galaxymod/edensurfaceblock,filename=assets/galaxymod/textures/blocks/edensurfaceblock.png
+texture:id=galaxymod/edentallgrass,filename=assets/galaxymod/textures/blocks/edentallgrass.png
+texture:id=galaxymod/edentinore,filename=assets/galaxymod/textures/blocks/edentinore.png
+texture:id=galaxymod/edentreasurechest,filename=assets/galaxymod/textures/blocks/edentreasurechest.png
+texture:id=galaxymod/edentreelog_side,filename=assets/galaxymod/textures/blocks/edentreelog_side.png
+texture:id=galaxymod/edentreelog_top,filename=assets/galaxymod/textures/blocks/edentreelog_top.png
+texture:id=galaxymod/edentreeplanks,filename=assets/galaxymod/textures/blocks/edentreeplanks.png
+texture:id=galaxymod/edentreesapling,filename=assets/galaxymod/textures/blocks/edentreesapling.png
+texture:id=galaxymod/edenviriore,filename=assets/galaxymod/textures/blocks/edenviriore.png
+texture:id=galaxymod/edenwinterrock,filename=assets/galaxymod/textures/blocks/edenwinterrock.png
+texture:id=galaxymod/edenwoodleaves,filename=assets/galaxymod/textures/blocks/edenwoodleaves.png
+texture:id=galaxymod/edenzollusportal,filename=assets/galaxymod/textures/blocks/edenzollusportal.png
+texture:id=galaxymod/fruitofedenblock,filename=assets/galaxymod/textures/blocks/fruitofedenblock.png
+texture:id=galaxymod/heartblock,filename=assets/galaxymod/textures/blocks/heartblock.png
+texture:id=galaxymod/kriffcoalore,filename=assets/galaxymod/textures/blocks/kriffcoalore.png
+texture:id=galaxymod/kriffcobaltore,filename=assets/galaxymod/textures/blocks/kriffcobaltore.png
+texture:id=galaxymod/kriffcobblerock,filename=assets/galaxymod/textures/blocks/kriffcobblerock.png
+texture:id=galaxymod/kriffcopperore,filename=assets/galaxymod/textures/blocks/kriffcopperore.png
+texture:id=galaxymod/kriffdirt,filename=assets/galaxymod/textures/blocks/kriffdirt.png
+texture:id=galaxymod/kriffgoldore,filename=assets/galaxymod/textures/blocks/kriffgoldore.png
+texture:id=galaxymod/kriffironore,filename=assets/galaxymod/textures/blocks/kriffironore.png
+texture:id=galaxymod/kriffonpurgotportal,filename=assets/galaxymod/textures/blocks/kriffonpurgotportal.png
+texture:id=galaxymod/kriffredstoneore,filename=assets/galaxymod/textures/blocks/kriffredstoneore.png
+texture:id=galaxymod/kriffrock,filename=assets/galaxymod/textures/blocks/kriffrock.png
+texture:id=galaxymod/kriffrockbricks,filename=assets/galaxymod/textures/blocks/kriffrockbricks.png
+texture:id=galaxymod/kriffstone,filename=assets/galaxymod/textures/blocks/kriffstone.png
+texture:id=galaxymod/magmarock,filename=assets/galaxymod/textures/blocks/magmarock.png
+texture:id=galaxymod/oasiscobblerock,filename=assets/galaxymod/textures/blocks/oasiscobblerock.png
+texture:id=galaxymod/oasisdirt,filename=assets/galaxymod/textures/blocks/oasisdirt.png
+texture:id=galaxymod/oasisgrass,filename=assets/galaxymod/textures/blocks/oasisgrass.png
+texture:id=galaxymod/oasisgrass_side,filename=assets/galaxymod/textures/blocks/oasisgrass_side.png
+texture:id=galaxymod/oasisrock,filename=assets/galaxymod/textures/blocks/oasisrock.png
+texture:id=galaxymod/oasistallgrass,filename=assets/galaxymod/textures/blocks/oasistallgrass.png
+texture:id=galaxymod/purgcobaltore,filename=assets/galaxymod/textures/blocks/purgcobaltore.png
+texture:id=galaxymod/purgcobblerock,filename=assets/galaxymod/textures/blocks/purgcobblerock.png
+texture:id=galaxymod/purgcopperore,filename=assets/galaxymod/textures/blocks/purgcopperore.png
+texture:id=galaxymod/purgdiamondore,filename=assets/galaxymod/textures/blocks/purgdiamondore.png
+texture:id=galaxymod/purgdirt,filename=assets/galaxymod/textures/blocks/purgdirt.png
+texture:id=galaxymod/purgemeraldore,filename=assets/galaxymod/textures/blocks/purgemeraldore.png
+texture:id=galaxymod/purgeveniumore,filename=assets/galaxymod/textures/blocks/purgeveniumore.png
+texture:id=galaxymod/purggoldore,filename=assets/galaxymod/textures/blocks/purggoldore.png
+texture:id=galaxymod/purgironore,filename=assets/galaxymod/textures/blocks/purgironore.png
+texture:id=galaxymod/purgotoasisportal,filename=assets/galaxymod/textures/blocks/purgotoasisportal.png
+texture:id=galaxymod/purgrock,filename=assets/galaxymod/textures/blocks/purgrock.png
+texture:id=galaxymod/purgrockbricks,filename=assets/galaxymod/textures/blocks/purgrockbricks.png
+texture:id=galaxymod/purgstone,filename=assets/galaxymod/textures/blocks/purgstone.png
+texture:id=galaxymod/solarblock,filename=assets/galaxymod/textures/blocks/solarblock.png
+texture:id=galaxymod/spacecrystals,filename=assets/galaxymod/textures/blocks/spacecrystals.png
+texture:id=galaxymod/viriblock,filename=assets/galaxymod/textures/blocks/viriblock.png
+texture:id=galaxymod/whiterock,filename=assets/galaxymod/textures/blocks/whiterock.png
+texture:id=galaxymod/xathcobblerock,filename=assets/galaxymod/textures/blocks/xathcobblerock.png
+texture:id=galaxymod/xathdirt,filename=assets/galaxymod/textures/blocks/xathdirt.png
+texture:id=galaxymod/xathgrass,filename=assets/galaxymod/textures/blocks/xathgrass.png
+texture:id=galaxymod/xathgrass_side,filename=assets/galaxymod/textures/blocks/xathgrass_side.png
+texture:id=galaxymod/xathiusprometheanore,filename=assets/galaxymod/textures/blocks/xathiusprometheanore.png
+texture:id=galaxymod/xathrock,filename=assets/galaxymod/textures/blocks/xathrock.png
+texture:id=galaxymod/xathstone,filename=assets/galaxymod/textures/blocks/xathstone.png
+texture:id=galaxymod/zolcoalore,filename=assets/galaxymod/textures/blocks/zolcoalore.png
+texture:id=galaxymod/zolcobblerock,filename=assets/galaxymod/textures/blocks/zolcobblerock.png
+texture:id=galaxymod/zolcopperore,filename=assets/galaxymod/textures/blocks/zolcopperore.png
+texture:id=galaxymod/zoldirt,filename=assets/galaxymod/textures/blocks/zoldirt.png
+texture:id=galaxymod/zolgoldore,filename=assets/galaxymod/textures/blocks/zolgoldore.png
+texture:id=galaxymod/zolheartore,filename=assets/galaxymod/textures/blocks/zolheartore.png
+texture:id=galaxymod/zolironore,filename=assets/galaxymod/textures/blocks/zolironore.png
+texture:id=galaxymod/zolluskriffonportal,filename=assets/galaxymod/textures/blocks/zolluskriffonportal.png
+texture:id=galaxymod/zolrockbricks,filename=assets/galaxymod/textures/blocks/zolrockbricks.png
+texture:id=galaxymod/zolstone,filename=assets/galaxymod/textures/blocks/zolstone.png
+texture:id=galaxymod/zoltinore,filename=assets/galaxymod/textures/blocks/zoltinore.png
+
+
+
+# %galaxymod_solarblock:* (galaxymod_solarblock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.zollus.ZolarBlock
+block:id=%galaxymod_solarblock,data=*,stdrot=true,face0-5=0:galaxymod/solarblock
+
+# %galaxymod_zolcobblerock:* (galaxymod_zolcobblerock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_zolcobblerock,data=*,stdrot=true,face0-5=0:galaxymod/zolcobblerock
+
+# %galaxymod_zolstone:* (galaxymod_zolstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.zollus.ZolStone
+block:id=%galaxymod_zolstone,data=*,stdrot=true,face0-5=0:galaxymod/zolstone
+
+# %galaxymod_spacecrystals:* (galaxymod_spacecrystals), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.zollus.BlockZolniumCrystals
+block:id=%galaxymod_spacecrystals,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/spacecrystals
+
+# %galaxymod_zolcoalore:* (galaxymod_zolcoalore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.zollus.ores.ZolCoalOre
+block:id=%galaxymod_zolcoalore,data=*,stdrot=true,face0-5=0:galaxymod/zolcoalore
+
+# %galaxymod_zolcopperore:* (galaxymod_zolcopperore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_zolcopperore,data=*,stdrot=true,face0-5=0:galaxymod/zolcopperore
+
+# %galaxymod_zolironore:* (galaxymod_zolironore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_zolironore,data=*,stdrot=true,face0-5=0:galaxymod/zolironore
+
+# %galaxymod_zolgoldore:* (galaxymod_zolgoldore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_zolgoldore,data=*,stdrot=true,face0-5=0:galaxymod/zolgoldore
+
+# %galaxymod_zoltinore:* (galaxymod_zoltinore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_zoltinore,data=*,stdrot=true,face0-5=0:galaxymod/zoltinore
+
+# %galaxymod_zolheartore:* (galaxymod_zolheartore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.zollus.ores.ZolHeartiumOre
+block:id=%galaxymod_zolheartore,data=*,stdrot=true,face0-5=0:galaxymod/zolheartore
+
+# %galaxymod_zoldirt:* (galaxymod_zoldirt), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_zoldirt,data=*,stdrot=true,face0-5=0:galaxymod/zoldirt
+
+# %galaxymod_zolrockbricks:* (galaxymod_zolrockbricks), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_zolrockbricks,data=*,stdrot=true,face0-5=0:galaxymod/zolrockbricks
+
+# %galaxymod_edenzollusportal:* (galaxymod_edenzollusportal), render=(STANDARD), opaque=false,cls=galaxymod.blocks.eden.BlockEdenZollusPortal
+block:id=%galaxymod_edenzollusportal,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:galaxymod/edenzollusportal
+
+# %galaxymod_edencobblerock:* (galaxymod_edencobblerock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_edencobblerock,data=*,stdrot=true,face0-5=0:galaxymod/edencobblerock
+
+# %galaxymod_edenrock:* (galaxymod_edenrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenRock
+block:id=%galaxymod_edenrock,data=*,stdrot=true,face0-5=0:galaxymod/edenrock
+
+# %galaxymod_edenrockbricks:* (galaxymod_edenrockbricks), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_edenrockbricks,data=*,stdrot=true,face0-5=0:galaxymod/edenrockbricks
+
+# %galaxymod_edenironore:* (galaxymod_edenironore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_edenironore,data=*,stdrot=true,face0-5=0:galaxymod/edenironore
+
+# %galaxymod_edencopperore:* (galaxymod_edencopperore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_edencopperore,data=*,stdrot=true,face0-5=0:galaxymod/edencopperore
+
+# %galaxymod_edentinore:* (galaxymod_edentinore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_edentinore,data=*,stdrot=true,face0-5=0:galaxymod/edentinore
+
+# %galaxymod_edenmeteoricironore:* (galaxymod_edenmeteoricironore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenMeteoricIronOre
+block:id=%galaxymod_edenmeteoricironore,data=*,stdrot=true,face0-5=0:galaxymod/edenmeteoricironore
+
+# %galaxymod_edendiamondore:* (galaxymod_edendiamondore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenDiamondOre
+block:id=%galaxymod_edendiamondore,data=*,stdrot=true,face0-5=0:galaxymod/edendiamondore
+
+# %galaxymod_edenemeraldore:* (galaxymod_edenemeraldore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenEmeraldOre
+block:id=%galaxymod_edenemeraldore,data=*,stdrot=true,face0-5=0:galaxymod/edenemeraldore
+
+# %galaxymod_edengoldore:* (galaxymod_edengoldore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_edengoldore,data=*,stdrot=true,face0-5=0:galaxymod/edengoldore
+
+# %galaxymod_edencoalore:* (galaxymod_edencoalore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenCoalOre
+block:id=%galaxymod_edencoalore,data=*,stdrot=true,face0-5=0:galaxymod/edencoalore
+
+# %galaxymod_edenredstoneore:* (galaxymod_edenredstoneore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenRedstoneOre
+block:id=%galaxymod_edenredstoneore,data=*,stdrot=true,face0-5=0:galaxymod/edenredstoneore
+
+# %galaxymod_edenlapisore:* (galaxymod_edenlapisore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenLapisOre
+block:id=%galaxymod_edenlapisore,data=*,stdrot=true,face0-5=0:galaxymod/edenlapisore
+
+# %galaxymod_edendeshore:* (galaxymod_edendeshore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenDeshOre
+block:id=%galaxymod_edendeshore,data=*,stdrot=true,face0-5=0:galaxymod/edendeshore
+
+# %galaxymod_edenaluminumore:* (galaxymod_edenaluminumore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_edenaluminumore,data=*,stdrot=true,face0-5=0:galaxymod/edenaluminumore
+
+# %galaxymod_edenviriore:* (galaxymod_edenviriore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.ores.EdenViriniumOre
+block:id=%galaxymod_edenviriore,data=*,stdrot=true,face0-5=0:galaxymod/edenviriore
+
+# %galaxymod_edensurfaceblock:* (galaxymod_edensurfaceblock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenSurfaceRock
+block:id=%galaxymod_edensurfaceblock,data=*,stdrot=true,face0-5=0:galaxymod/edensurfaceblock
+
+# %galaxymod_edensoil:* (galaxymod_edensoil), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenSoil
+block:id=%galaxymod_edensoil,data=*,stdrot=true,face0-5=0:galaxymod/edensoil
+
+# %galaxymod_edenflower_:* (galaxymod_edenflower_), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_
+
+# %galaxymod_edenflower_blue:* (galaxymod_edenflower_blue), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_blue,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_blue
+
+# %galaxymod_edenflower_red:* (galaxymod_edenflower_red), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_red,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_red
+
+# %galaxymod_edenflower_orange:* (galaxymod_edenflower_orange), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_orange,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_orange
+
+# %galaxymod_edenflower_yellow:* (galaxymod_edenflower_yellow), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_yellow,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_yellow
+
+# %galaxymod_edenflower_purple:* (galaxymod_edenflower_purple), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_purple,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_purple
+
+# %galaxymod_edenflower_cyan:* (galaxymod_edenflower_cyan), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_cyan,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_cyan
+
+# %galaxymod_edenflower_green:* (galaxymod_edenflower_green), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenFlower
+block:id=%galaxymod_edenflower_green,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edenflower_green
+
+# %galaxymod_edengrass:* (galaxymod_edengrass), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenGrass
+block:id=%galaxymod_edengrass,data=*,stdrot=true,face0=0:galaxymod/edensoil,face1=0:galaxymod/edengrass,face2-5=0:galaxymod/edengrass_side
+
+# %galaxymod_edengoldengrass:* (galaxymod_edengoldengrass), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.BlockEdenGoldenGrass
+block:id=%galaxymod_edengoldengrass,data=*,stdrot=true,face0=0:galaxymod/edensoil,face1=0:galaxymod/edengoldengrass,face2-5=0:galaxymod/edengoldengrass_side
+
+# %galaxymod_edentallgrass:* (galaxymod_edentallgrass), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.EdenTallGrass
+block:id=%galaxymod_edentallgrass,data=*,stdrot=true,transparency=TRANSPARENT,colorMult=FF7CBD6B,patch0=17000:galaxymod/edentallgrass
+
+# %galaxymod_bloodsand:* (galaxymod_bloodsand), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.BloodSand
+block:id=%galaxymod_bloodsand,data=*,stdrot=true,face0-5=0:galaxymod/bloodsand
+
+# %galaxymod_bloodstone:* (galaxymod_bloodstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_bloodstone,data=*,stdrot=true,face0-5=0:galaxymod/bloodstone
+
+# %galaxymod_bonestone:* (galaxymod_bonestone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_bonestone,data=*,stdrot=true,face0-5=0:galaxymod/bonestone
+
+# %galaxymod_edensacredstone:* (galaxymod_edensacredstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_edensacredstone,data=*,stdrot=true,face0-5=0:galaxymod/edensacredstone
+
+# %galaxymod_edenglass:* (galaxymod_edenglass), render=(STANDARD), opaque=false,cls=galaxymod.blocks.eden.MultiBlockGlass
+block:id=%galaxymod_edenglass,data=*,stdrot=true,face0-5=0:galaxymod/edenglass0
+
+# %galaxymod_edentreeplanks:* (galaxymod_edentreeplanks), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_edentreeplanks,data=*,stdrot=true,face0-5=0:galaxymod/edentreeplanks
+
+# %galaxymod_edenwoodlog:* (galaxymod_edenwoodlog), render=(LOG), opaque=true,cls=galaxymod.blocks.eden.BlockEdenWoodLog
+block:id=%galaxymod_edenwoodlog,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:galaxymod/edentreelog_top,face2-5=0:galaxymod/edentreelog_side
+block:id=%galaxymod_edenwoodlog,data=4,data=5,data=6,data=7,face0-1=0:galaxymod/edentreelog_side,face2-3=4000:galaxymod/edentreelog_side,face4-5=0:galaxymod/edentreelog_top
+block:id=%galaxymod_edenwoodlog,data=8,data=9,data=10,data=11,face0-1=4000:galaxymod/edentreelog_side,face2-3=0:galaxymod/edentreelog_top,face4-5=4000:galaxymod/edentreelog_side
+block:id=%galaxymod_edenwoodlog,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:galaxymod/edentreelog_side
+
+# %galaxymod_edenwoodleaves:* (galaxymod_edenwoodleaves), render=(STANDARD), opaque=false,cls=galaxymod.blocks.eden.BlockEdenWoodLeaves
+block:id=%galaxymod_edenwoodleaves,data=*,stdrot=true,face0-5=2000:galaxymod/edenwoodleaves
+
+# %galaxymod_edenwoodsapling:* (galaxymod_edenwoodsapling), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.eden.BlockEdenWoodSapling
+block:id=%galaxymod_edenwoodsapling,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:galaxymod/edentreesapling
+
+# %galaxymod_magmarock:* (galaxymod_magmarock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenMagmaRock
+block:id=%galaxymod_magmarock,data=*,stdrot=true,face0-5=0:galaxymod/magmarock
+
+# %galaxymod_edengravel:* (galaxymod_edengravel), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenGravel
+block:id=%galaxymod_edengravel,data=*,stdrot=true,face0-5=0:galaxymod/edengravel
+
+# %galaxymod_edenwinterrock:* (galaxymod_edenwinterrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.BlockWinterrock
+block:id=%galaxymod_edenwinterrock,data=*,stdrot=true,face0-5=0:galaxymod/edenwinterrock
+
+# %galaxymod_fruitofedenblock:* (galaxymod_fruitofedenblock), render=(STANDARD), opaque=false,cls=galaxymod.blocks.eden.SpaceFruitBlock
+block:id=%galaxymod_fruitofedenblock,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:galaxymod/fruitofedenblock
+
+# %galaxymod_brightstone:* (galaxymod_brightstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.eden.EdenBritestone
+block:id=%galaxymod_brightstone,data=*,stdrot=true,face0-5=0:galaxymod/brightstone
+
+# %galaxymod_edentreasurechest:* (galaxymod_edentreasurechest), render=(CUSTOM), opaque=false,cls=galaxymod.blocks.eden.BlockEdenTreasureChest
+block:id=%galaxymod_edentreasurechest,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:galaxymod/edentreasurechest
+
+# %galaxymod_viriblock:* (galaxymod_viriblock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_viriblock,data=*,stdrot=true,face0-5=0:galaxymod/viriblock
+
+# %galaxymod_zolluskriffonportal:* (galaxymod_zolluskriffonportal), render=(STANDARD), opaque=false,cls=galaxymod.blocks.kriffus.BlockZollusKriffonPortal
+block:id=%galaxymod_zolluskriffonportal,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:galaxymod/zolluskriffonportal
+
+# %galaxymod_kriffrock:* (galaxymod_kriffrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_kriffrock,data=*,stdrot=true,face0-5=0:galaxymod/kriffrock
+
+# %galaxymod_kriffcobblerock:* (galaxymod_kriffcobblerock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_kriffcobblerock,data=*,stdrot=true,face0-5=0:galaxymod/kriffcobblerock
+
+# %galaxymod_kriffstone:* (galaxymod_kriffstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.kriffus.KriffStone
+block:id=%galaxymod_kriffstone,data=*,stdrot=true,face0-5=0:galaxymod/kriffstone
+
+# %galaxymod_kriffcoalore:* (galaxymod_kriffcoalore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.kriffus.ores.KriffCoalOre
+block:id=%galaxymod_kriffcoalore,data=*,stdrot=true,face0-5=0:galaxymod/kriffcoalore
+
+# %galaxymod_kriffcopperore:* (galaxymod_kriffcopperore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_kriffcopperore,data=*,stdrot=true,face0-5=0:galaxymod/kriffcopperore
+
+# %galaxymod_kriffredstoneore:* (galaxymod_kriffredstoneore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.kriffus.ores.KriffRedstoneOre
+block:id=%galaxymod_kriffredstoneore,data=*,stdrot=true,face0-5=0:galaxymod/kriffredstoneore
+
+# %galaxymod_kriffironore:* (galaxymod_kriffironore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_kriffironore,data=*,stdrot=true,face0-5=0:galaxymod/kriffironore
+
+# %galaxymod_kriffgoldore:* (galaxymod_kriffgoldore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_kriffgoldore,data=*,stdrot=true,face0-5=0:galaxymod/kriffgoldore
+
+# %galaxymod_kriffcobaltore:* (galaxymod_kriffcobaltore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_kriffcobaltore,data=*,stdrot=true,face0-5=0:galaxymod/kriffcobaltore
+
+# %galaxymod_kriffdirt:* (galaxymod_kriffdirt), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaDirt
+block:id=%galaxymod_kriffdirt,data=*,stdrot=true,face0-5=0:galaxymod/kriffdirt
+
+# %galaxymod_kriffonpurgotportal:* (galaxymod_kriffonpurgotportal), render=(STANDARD), opaque=false,cls=galaxymod.blocks.purgot.BlockKriffonPurgotPortal
+block:id=%galaxymod_kriffonpurgotportal,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:galaxymod/kriffonpurgotportal
+
+# %galaxymod_kriffrockbricks:* (galaxymod_kriffrockbricks), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_kriffrockbricks,data=*,stdrot=true,face0-5=0:galaxymod/kriffrockbricks
+
+# %galaxymod_purgrock:* (galaxymod_purgrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_purgrock,data=*,stdrot=true,face0-5=0:galaxymod/purgrock
+
+# %galaxymod_purgcobblerock:* (galaxymod_purgcobblerock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_purgcobblerock,data=*,stdrot=true,face0-5=0:galaxymod/purgcobblerock
+
+# %galaxymod_purgstone:* (galaxymod_purgstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.purgot.PurgStone
+block:id=%galaxymod_purgstone,data=*,stdrot=true,face0-5=0:galaxymod/purgstone
+
+# %galaxymod_purgdirt:* (galaxymod_purgdirt), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaDirt
+block:id=%galaxymod_purgdirt,data=*,stdrot=true,face0-5=0:galaxymod/purgdirt
+
+# %galaxymod_whiterock:* (galaxymod_whiterock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.purgot.WhiteRock
+block:id=%galaxymod_whiterock,data=*,stdrot=true,face0-5=0:galaxymod/whiterock
+
+# %galaxymod_blackrock:* (galaxymod_blackrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.purgot.BlackRock
+block:id=%galaxymod_blackrock,data=*,stdrot=true,face0-5=0:galaxymod/blackrock
+
+# %galaxymod_purgironore:* (galaxymod_purgironore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_purgironore,data=*,stdrot=true,face0-5=0:galaxymod/purgironore
+
+# %galaxymod_purggoldore:* (galaxymod_purggoldore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_purggoldore,data=*,stdrot=true,face0-5=0:galaxymod/purggoldore
+
+# %galaxymod_purgcopperore:* (galaxymod_purgcopperore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_purgcopperore,data=*,stdrot=true,face0-5=0:galaxymod/purgcopperore
+
+# %galaxymod_purgdiamondore:* (galaxymod_purgdiamondore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.purgot.ores.PurgDiamondOre
+block:id=%galaxymod_purgdiamondore,data=*,stdrot=true,face0-5=0:galaxymod/purgdiamondore
+
+# %galaxymod_purgemeraldore:* (galaxymod_purgemeraldore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.purgot.ores.PurgEmeraldOre
+block:id=%galaxymod_purgemeraldore,data=*,stdrot=true,face0-5=0:galaxymod/purgemeraldore
+
+# %galaxymod_purgeveniumore:* (galaxymod_purgeveniumore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_purgeveniumore,data=*,stdrot=true,face0-5=0:galaxymod/purgeveniumore
+
+# %galaxymod_purgcobaltore:* (galaxymod_purgcobaltore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaOre
+block:id=%galaxymod_purgcobaltore,data=*,stdrot=true,face0-5=0:galaxymod/purgcobaltore
+
+# %galaxymod_purgrockbricks:* (galaxymod_purgrockbricks), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_purgrockbricks,data=*,stdrot=true,face0-5=0:galaxymod/purgrockbricks
+
+# %galaxymod_purgotoasisportal:* (galaxymod_purgotoasisportal), render=(STANDARD), opaque=false,cls=galaxymod.blocks.oasis.BlockPurgotOasisPortal
+block:id=%galaxymod_purgotoasisportal,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:galaxymod/purgotoasisportal
+
+# %galaxymod_xathrock:* (galaxymod_xathrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_xathrock,data=*,stdrot=true,face0-5=0:galaxymod/xathrock
+
+# %galaxymod_xathcobblerock:* (galaxymod_xathcobblerock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_xathcobblerock,data=*,stdrot=true,face0-5=0:galaxymod/xathcobblerock
+
+# %galaxymod_xathstone:* (galaxymod_xathstone), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_xathstone,data=*,stdrot=true,face0-5=0:galaxymod/xathstone
+
+# %galaxymod_xathdirt:* (galaxymod_xathdirt), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaDirt
+block:id=%galaxymod_xathdirt,data=*,stdrot=true,face0-5=0:galaxymod/xathdirt
+
+# %galaxymod_xathgrass:* (galaxymod_xathgrass), render=(STANDARD), opaque=true,cls=galaxymod.blocks.xathius.XathiusGrass
+block:id=%galaxymod_xathgrass,data=*,stdrot=true,face0=0:galaxymod/xathdirt,face1=0:galaxymod/xathgrass,face2-5=0:galaxymod/xathgrass_side
+
+# %galaxymod_xathiusprometheanore:* (galaxymod_xathiusprometheanore), render=(STANDARD), opaque=true,cls=galaxymod.blocks.xathius.ores.XathiusPrometheanOre
+block:id=%galaxymod_xathiusprometheanore,data=*,stdrot=true,face0-5=0:galaxymod/xathiusprometheanore
+
+# %galaxymod_oasisrock:* (galaxymod_oasisrock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.oasis.OasisRock
+block:id=%galaxymod_oasisrock,data=*,stdrot=true,face0-5=0:galaxymod/oasisrock
+
+# %galaxymod_oasiscobblerock:* (galaxymod_oasiscobblerock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNova
+block:id=%galaxymod_oasiscobblerock,data=*,stdrot=true,face0-5=0:galaxymod/oasiscobblerock
+
+# %galaxymod_oasisdirt:* (galaxymod_oasisdirt), render=(STANDARD), opaque=true,cls=galaxymod.blocks.BlockNovaDirt
+block:id=%galaxymod_oasisdirt,data=*,stdrot=true,face0-5=0:galaxymod/oasisdirt
+
+# %galaxymod_oasisgrass:* (galaxymod_oasisgrass), render=(STANDARD), opaque=true,cls=galaxymod.blocks.oasis.OasisGrass
+block:id=%galaxymod_oasisgrass,data=*,stdrot=true,face0=0:galaxymod/oasisdirt,face1=0:galaxymod/oasisgrass,face2-5=0:galaxymod/oasisgrass_side
+
+# %galaxymod_oasistallgrass:* (galaxymod_oasistallgrass), render=(CROSSEDSQUARES), opaque=false,cls=galaxymod.blocks.oasis.OasisTallGrass
+block:id=%galaxymod_oasistallgrass,data=*,stdrot=true,transparency=TRANSPARENT,colorMult=8B0000,patch0=17000:galaxymod/oasistallgrass
+
+# %galaxymod_heartblock:* (galaxymod_heartblock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.coreblocks.BlockHealingStation
+block:id=%galaxymod_heartblock,data=*,stdrot=true,face0-5=0:galaxymod/heartblock
+
+# %galaxymod_blueprintblock:* (galaxymod_blueprintblock), render=(STANDARD), opaque=true,cls=galaxymod.blocks.coreblocks.BlockBlueprintStation
+block:id=%galaxymod_blueprintblock,data=*,stdrot=true,face0-5=0:galaxymod/blueprintblock

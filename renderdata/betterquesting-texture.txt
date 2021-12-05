@@ -1,0 +1,16 @@
+# betterquesting 2.0.233
+version:1.7
+modname:betterquesting
+
+
+cfgfile:config/betterquesting.cfg
+
+
+texturepath:assets/betterquesting/textures/blocks/
+texture:id=betterquesting/submit_station_side,filename=assets/betterquesting/textures/blocks/submit_station_side.png
+texture:id=betterquesting/submit_station_top,filename=assets/betterquesting/textures/blocks/submit_station_top.png
+
+
+
+# %submit_station:* (submit_station), render=(STANDARD), opaque=true,cls=betterquesting.blocks.BlockSubmitStation
+block:id=%submit_station,data=*,stdrot=true,face0-1=0:betterquesting/submit_station_top,face2-5=0:betterquesting/submit_station_side

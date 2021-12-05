@@ -1,0 +1,16 @@
+# bq_rf 2.0.25
+version:1.7
+modname:bq_rf
+
+
+cfgfile:config/bq_rf.cfg
+
+
+texturepath:assets/bq_rf/textures/blocks/
+texture:id=bq_rf/rf_station_side,filename=assets/bq_rf/textures/blocks/rf_station_side.png
+texture:id=bq_rf/rf_station_top,filename=assets/bq_rf/textures/blocks/rf_station_top.png
+
+
+
+# %rf_station:* (rf_station), render=(STANDARD), opaque=true,cls=bq_rf.block.BlockRfStation
+block:id=%rf_station,data=*,stdrot=true,face0-1=0:bq_rf/rf_station_top,face2-5=0:bq_rf/rf_station_side

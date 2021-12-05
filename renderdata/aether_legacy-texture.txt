@@ -1,0 +1,382 @@
+# aether_legacy v1.1.2.1
+version:1.7
+modname:aether_legacy
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/aether_legacy/textures/blocks/
+texture:id=aether_legacy/aercloud,filename=assets/aether_legacy/textures/blocks/aercloud.png
+texture:id=aether_legacy/aerogel,filename=assets/aether_legacy/textures/blocks/aerogel.png
+texture:id=aether_legacy/aether_dirt,filename=assets/aether_legacy/textures/blocks/aether_dirt.png
+texture:id=aether_legacy/aether_grass_side,filename=assets/aether_legacy/textures/blocks/aether_grass_side.png
+texture:id=aether_legacy/aether_grass_top,filename=assets/aether_legacy/textures/blocks/aether_grass_top.png
+texture:id=aether_legacy/aether_portal,filename=assets/aether_legacy/textures/blocks/aether_portal.png
+texture:id=aether_legacy/ambrosium_ore,filename=assets/aether_legacy/textures/blocks/ambrosium_ore.png
+texture:id=aether_legacy/ambrosium_torch,filename=assets/aether_legacy/textures/blocks/ambrosium_torch.png
+texture:id=aether_legacy/angelic_stone,filename=assets/aether_legacy/textures/blocks/angelic_stone.png
+texture:id=aether_legacy/berry_bush,filename=assets/aether_legacy/textures/blocks/berry_bush.png
+texture:id=aether_legacy/berry_bush_stem,filename=assets/aether_legacy/textures/blocks/berry_bush_stem.png
+texture:id=aether_legacy/carved_stone,filename=assets/aether_legacy/textures/blocks/carved_stone.png
+texture:id=aether_legacy/crystal_fruit_leaves,filename=assets/aether_legacy/textures/blocks/crystal_fruit_leaves.png
+texture:id=aether_legacy/crystal_leaves,filename=assets/aether_legacy/textures/blocks/crystal_leaves.png
+texture:id=aether_legacy/decorated_holiday_leaves,filename=assets/aether_legacy/textures/blocks/decorated_holiday_leaves.png
+texture:id=aether_legacy/enchanted_aether_grass_side,filename=assets/aether_legacy/textures/blocks/enchanted_aether_grass_side.png
+texture:id=aether_legacy/enchanted_aether_grass_top,filename=assets/aether_legacy/textures/blocks/enchanted_aether_grass_top.png
+texture:id=aether_legacy/enchanted_gravitite,filename=assets/aether_legacy/textures/blocks/enchanted_gravitite.png
+texture:id=aether_legacy/enchanter_bottom,filename=assets/aether_legacy/textures/blocks/enchanter_bottom.png
+texture:id=aether_legacy/enchanter_side,filename=assets/aether_legacy/textures/blocks/enchanter_side.png
+texture:id=aether_legacy/freezer_side,filename=assets/aether_legacy/textures/blocks/freezer_side.png
+texture:id=aether_legacy/freezer_top,filename=assets/aether_legacy/textures/blocks/freezer_top.png
+texture:id=aether_legacy/golden_oak_leaves,filename=assets/aether_legacy/textures/blocks/golden_oak_leaves.png
+texture:id=aether_legacy/golden_oak_log_side,filename=assets/aether_legacy/textures/blocks/golden_oak_log_side.png
+texture:id=aether_legacy/golden_oak_log_top,filename=assets/aether_legacy/textures/blocks/golden_oak_log_top.png
+texture:id=aether_legacy/golden_oak_sapling,filename=assets/aether_legacy/textures/blocks/golden_oak_sapling.png
+texture:id=aether_legacy/gravitite_ore,filename=assets/aether_legacy/textures/blocks/gravitite_ore.png
+texture:id=aether_legacy/hellfire_stone,filename=assets/aether_legacy/textures/blocks/hellfire_stone.png
+texture:id=aether_legacy/holiday_leaves,filename=assets/aether_legacy/textures/blocks/holiday_leaves.png
+texture:id=aether_legacy/holystone,filename=assets/aether_legacy/textures/blocks/holystone.png
+texture:id=aether_legacy/holystone_brick,filename=assets/aether_legacy/textures/blocks/holystone_brick.png
+texture:id=aether_legacy/icestone,filename=assets/aether_legacy/textures/blocks/icestone.png
+texture:id=aether_legacy/incubator_side,filename=assets/aether_legacy/textures/blocks/incubator_side.png
+texture:id=aether_legacy/incubator_top,filename=assets/aether_legacy/textures/blocks/incubator_top.png
+texture:id=aether_legacy/light_angelic_stone,filename=assets/aether_legacy/textures/blocks/light_angelic_stone.png
+texture:id=aether_legacy/light_hellfire_stone,filename=assets/aether_legacy/textures/blocks/light_hellfire_stone.png
+texture:id=aether_legacy/mossy_holystone,filename=assets/aether_legacy/textures/blocks/mossy_holystone.png
+texture:id=aether_legacy/pillar_carved,filename=assets/aether_legacy/textures/blocks/pillar_carved.png
+texture:id=aether_legacy/pillar_side,filename=assets/aether_legacy/textures/blocks/pillar_side.png
+texture:id=aether_legacy/pillar_top,filename=assets/aether_legacy/textures/blocks/pillar_top.png
+texture:id=aether_legacy/present_side,filename=assets/aether_legacy/textures/blocks/present_side.png
+texture:id=aether_legacy/present_top,filename=assets/aether_legacy/textures/blocks/present_top.png
+texture:id=aether_legacy/purple_flower,filename=assets/aether_legacy/textures/blocks/purple_flower.png
+texture:id=aether_legacy/quicksoil,filename=assets/aether_legacy/textures/blocks/quicksoil.png
+texture:id=aether_legacy/quicksoil_glass,filename=assets/aether_legacy/textures/blocks/quicksoil_glass.png
+texture:id=aether_legacy/sentry_stone,filename=assets/aether_legacy/textures/blocks/sentry_stone.png
+texture:id=aether_legacy/skyroot_bed_feet_end,filename=assets/aether_legacy/textures/blocks/skyroot_bed_feet_end.png
+texture:id=aether_legacy/skyroot_bed_feet_side,filename=assets/aether_legacy/textures/blocks/skyroot_bed_feet_side.png
+texture:id=aether_legacy/skyroot_bed_feet_top,filename=assets/aether_legacy/textures/blocks/skyroot_bed_feet_top.png
+texture:id=aether_legacy/skyroot_bed_head_end,filename=assets/aether_legacy/textures/blocks/skyroot_bed_head_end.png
+texture:id=aether_legacy/skyroot_bed_head_side,filename=assets/aether_legacy/textures/blocks/skyroot_bed_head_side.png
+texture:id=aether_legacy/skyroot_bed_head_top,filename=assets/aether_legacy/textures/blocks/skyroot_bed_head_top.png
+texture:id=aether_legacy/skyroot_bookshelf,filename=assets/aether_legacy/textures/blocks/skyroot_bookshelf.png
+texture:id=aether_legacy/skyroot_leaves,filename=assets/aether_legacy/textures/blocks/skyroot_leaves.png
+texture:id=aether_legacy/skyroot_log_side,filename=assets/aether_legacy/textures/blocks/skyroot_log_side.png
+texture:id=aether_legacy/skyroot_log_top,filename=assets/aether_legacy/textures/blocks/skyroot_log_top.png
+texture:id=aether_legacy/skyroot_planks,filename=assets/aether_legacy/textures/blocks/skyroot_planks.png
+texture:id=aether_legacy/skyroot_sapling,filename=assets/aether_legacy/textures/blocks/skyroot_sapling.png
+texture:id=aether_legacy/sun_altar_side,filename=assets/aether_legacy/textures/blocks/sun_altar_side.png
+texture:id=aether_legacy/sun_altar_top,filename=assets/aether_legacy/textures/blocks/sun_altar_top.png
+texture:id=aether_legacy/white_flower,filename=assets/aether_legacy/textures/blocks/white_flower.png
+texture:id=aether_legacy/zanite_block,filename=assets/aether_legacy/textures/blocks/zanite_block.png
+texture:id=aether_legacy/zanite_ore,filename=assets/aether_legacy/textures/blocks/zanite_ore.png
+texture:id=minecraft/planks_oak,filename=assets/minecraft/textures/blocks/planks_oak.png
+
+
+
+# %aether_grass:* (aether_grass), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherGrass
+block:id=%aether_grass,data=*,stdrot=true,face0=0:aether_legacy/aether_dirt,face1=0:aether_legacy/aether_grass_top,face2-5=0:aether_legacy/aether_grass_side
+
+# %enchanted_aether_grass:* (enchanted_aether_grass), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockEnchantedAetherGrass
+block:id=%enchanted_aether_grass,data=*,stdrot=true,face0=0:aether_legacy/aether_dirt,face1=0:aether_legacy/enchanted_aether_grass_top,face2-5=0:aether_legacy/enchanted_aether_grass_side
+
+# %aether_dirt:* (aether_dirt), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherDirt
+block:id=%aether_dirt,data=*,stdrot=true,face0-5=0:aether_legacy/aether_dirt
+
+# %holystone:* (holystone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockHolystone
+block:id=%holystone,data=*,stdrot=true,face0-5=0:aether_legacy/holystone
+
+# %mossy_holystone:* (mossy_holystone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockHolystone
+block:id=%mossy_holystone,data=*,stdrot=true,face0-5=0:aether_legacy/mossy_holystone
+
+# %holystone_brick:* (holystone_brick), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.BlockAether
+block:id=%holystone_brick,data=*,stdrot=true,face0-5=0:aether_legacy/holystone_brick
+
+# %aercloud:* (aercloud), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAercloud
+block:id=%aercloud,data=0,stdrot=true,face0-5=12000:aether_legacy/aercloud
+block:id=%aercloud,data=1,stdrot=true,colorMult=CCFFFF,face0-5=17000:aether_legacy/aercloud
+block:id=%aercloud,data=2,stdrot=true,colorMult=FFFF80,face0-5=17000:aether_legacy/aercloud
+block:id=%aercloud,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=12000:aether_legacy/aercloud
+
+# %aerogel:* (aerogel), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAerogel
+block:id=%aerogel,data=*,stdrot=true,face0-5=12000:aether_legacy/aerogel
+
+# %quicksoil:* (quicksoil), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockQuicksoil
+block:id=%quicksoil,data=*,stdrot=true,face0-5=0:aether_legacy/quicksoil
+
+# %icestone:* (icestone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.BlockIcestone
+block:id=%icestone,data=*,stdrot=true,face0-5=0:aether_legacy/icestone
+
+# %ambrosium_ore:* (ambrosium_ore), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherOre
+block:id=%ambrosium_ore,data=*,stdrot=true,face0-5=0:aether_legacy/ambrosium_ore
+
+# %zanite_ore:* (zanite_ore), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherOre
+block:id=%zanite_ore,data=*,stdrot=true,face0-5=0:aether_legacy/zanite_ore
+
+# %gravitite_ore:* (gravitite_ore), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.util.BlockFloating
+block:id=%gravitite_ore,data=*,stdrot=true,face0-5=0:aether_legacy/gravitite_ore
+
+# %enchanted_gravitite:* (enchanted_gravitite), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.util.BlockFloating
+block:id=%enchanted_gravitite,data=*,stdrot=true,face0-5=0:aether_legacy/enchanted_gravitite
+
+# %zanite_block:* (zanite_block), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockZanite
+block:id=%zanite_block,data=*,stdrot=true,face0-5=0:aether_legacy/zanite_block
+
+# %skyroot_leaves:* (skyroot_leaves), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLeaves
+block:id=%skyroot_leaves,data=*,stdrot=true,face0-5=0:aether_legacy/skyroot_leaves
+
+# %golden_oak_leaves:* (golden_oak_leaves), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLeaves
+block:id=%golden_oak_leaves,data=*,stdrot=true,face0-5=0:aether_legacy/golden_oak_leaves
+
+# %crystal_leaves:* (crystal_leaves), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLeaves
+block:id=%crystal_leaves,data=*,stdrot=true,face0-5=0:aether_legacy/crystal_leaves
+
+# %crystal_fruit_leaves:* (crystal_fruit_leaves), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLeaves
+block:id=%crystal_fruit_leaves,data=*,stdrot=true,face0-5=0:aether_legacy/crystal_fruit_leaves
+
+# %holiday_leaves:* (holiday_leaves), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLeaves
+block:id=%holiday_leaves,data=*,stdrot=true,face0-5=0:aether_legacy/holiday_leaves
+
+# %decorated_holiday_leaves:* (decorated_holiday_leaves), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLeaves
+block:id=%decorated_holiday_leaves,data=*,stdrot=true,face0-5=0:aether_legacy/decorated_holiday_leaves
+
+# %present:* (present), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockPresent
+block:id=%present,data=*,stdrot=true,face0-1=0:aether_legacy/present_top,face2-5=0:aether_legacy/present_side
+
+# %skyroot_log:* (skyroot_log), render=(LOG), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLog
+block:id=%skyroot_log,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:aether_legacy/skyroot_log_top,face2-5=0:aether_legacy/skyroot_log_side
+block:id=%skyroot_log,data=4,data=5,data=6,data=7,face0-1=0:aether_legacy/skyroot_log_side,face2-3=4000:aether_legacy/skyroot_log_side,face4-5=0:aether_legacy/skyroot_log_top
+block:id=%skyroot_log,data=8,data=9,data=10,data=11,face0-1=4000:aether_legacy/skyroot_log_side,face2-3=0:aether_legacy/skyroot_log_top,face4-5=4000:aether_legacy/skyroot_log_side
+block:id=%skyroot_log,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:aether_legacy/skyroot_log_side
+
+# %golden_oak_log:* (golden_oak_log), render=(LOG), opaque=true,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherLog
+block:id=%golden_oak_log,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:aether_legacy/golden_oak_log_top,face2-5=0:aether_legacy/golden_oak_log_side
+block:id=%golden_oak_log,data=4,data=5,data=6,data=7,face0-1=0:aether_legacy/golden_oak_log_side,face2-3=4000:aether_legacy/golden_oak_log_side,face4-5=0:aether_legacy/golden_oak_log_top
+block:id=%golden_oak_log,data=8,data=9,data=10,data=11,face0-1=4000:aether_legacy/golden_oak_log_side,face2-3=0:aether_legacy/golden_oak_log_top,face4-5=4000:aether_legacy/golden_oak_log_side
+block:id=%golden_oak_log,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:aether_legacy/golden_oak_log_side
+
+# %skyroot_planks:* (skyroot_planks), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockSkyrootPlanks
+block:id=%skyroot_planks,data=*,stdrot=true,face0-5=0:aether_legacy/skyroot_planks
+
+# %quicksoil_glass:* (quicksoil_glass), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockQuicksoilGlass
+block:id=%quicksoil_glass,data=*,stdrot=true,face0-5=12000:aether_legacy/quicksoil_glass
+
+# %ambrosium_torch:* (ambrosium_torch), render=(TORCH), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAmbrosiumTorch
+block:id=%ambrosium_torch,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:aether_legacy/ambrosium_torch
+
+# %berry_bush_stem:* (berry_bush_stem), render=com.gildedgames.the_aether.client.renders.block.AetherFlowerRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockBerryBushStem
+block:id=%berry_bush_stem,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/berry_bush_stem
+
+# %berry_bush:* (berry_bush), render=com.gildedgames.the_aether.client.renders.block.BerryBushRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockBerryBush
+block:id=%berry_bush,data=*,stdrot=true,face0-5=0:aether_legacy/berry_bush
+
+# %purple_flower:* (purple_flower), render=com.gildedgames.the_aether.client.renders.block.AetherFlowerRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherFlower
+block:id=%purple_flower,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/purple_flower
+
+# %white_flower:* (white_flower), render=com.gildedgames.the_aether.client.renders.block.AetherFlowerRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.natural.BlockAetherFlower
+block:id=%white_flower,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/white_flower
+
+# %skyroot_sapling:* (skyroot_sapling), render=com.gildedgames.the_aether.client.renders.block.AetherFlowerRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.BlockAetherSapling
+block:id=%skyroot_sapling,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/skyroot_sapling
+
+# %golden_oak_sapling:* (golden_oak_sapling), render=com.gildedgames.the_aether.client.renders.block.AetherFlowerRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.BlockAetherSapling
+block:id=%golden_oak_sapling,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/golden_oak_sapling
+
+# %enchanter:* (enchanter), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.container.BlockEnchanter
+block:id=%enchanter,data=*,stdrot=true,face0-1=0:aether_legacy/enchanter_bottom,face2-5=0:aether_legacy/enchanter_side
+
+# %freezer:* (freezer), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.container.BlockFreezer
+block:id=%freezer,data=*,stdrot=true,face0=0:aether_legacy/enchanter_bottom,face1=0:aether_legacy/freezer_top,face2-5=0:aether_legacy/freezer_side
+
+# %incubator:* (incubator), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.container.BlockIncubator
+block:id=%incubator,data=*,stdrot=true,face0=0:aether_legacy/enchanter_bottom,face1=0:aether_legacy/incubator_top,face2-5=0:aether_legacy/incubator_side
+
+# %sun_altar:* (sun_altar), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.container.BlockSunAltar
+block:id=%sun_altar,data=*,stdrot=true,face0=0:aether_legacy/hellfire_stone,face1=0:aether_legacy/sun_altar_top,face2-5=0:aether_legacy/sun_altar_side
+
+# %chest_mimic:* (chest_mimic), render=(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.dungeon.BlockMimicChest
+block:id=%chest_mimic,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/planks_oak
+
+# %treasure_chest:* (treasure_chest), render=com.gildedgames.the_aether.client.renders.block.TreasureChestBlockRenderer(CUSTOM), opaque=false,cls=com.gildedgames.the_aether.blocks.dungeon.BlockTreasureChest
+block:id=%treasure_chest,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/carved_stone
+
+# %aether_portal:* (aether_portal), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.portal.BlockAetherPortal
+block:id=%aether_portal,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:aether_legacy/aether_portal
+
+# %pillar:* (pillar), render=(LOG), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockPillar
+block:id=%pillar,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:aether_legacy/pillar_top,face2-5=0:aether_legacy/pillar_side
+block:id=%pillar,data=4,data=5,data=6,data=7,face0-1=0:aether_legacy/pillar_side,face2-3=4000:aether_legacy/pillar_side,face4-5=0:aether_legacy/pillar_top
+block:id=%pillar,data=8,data=9,data=10,data=11,face0-1=4000:aether_legacy/pillar_side,face2-3=0:aether_legacy/pillar_top,face4-5=4000:aether_legacy/pillar_side
+block:id=%pillar,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:aether_legacy/pillar_side
+
+# %pillar_top:* (pillar_top), render=(LOG), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockPillar
+block:id=%pillar_top,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:aether_legacy/pillar_top,face2-5=0:aether_legacy/pillar_carved
+block:id=%pillar_top,data=4,data=5,data=6,data=7,face0-1=0:aether_legacy/pillar_carved,face2-3=4000:aether_legacy/pillar_carved,face4-5=0:aether_legacy/pillar_top
+block:id=%pillar_top,data=8,data=9,data=10,data=11,face0-1=4000:aether_legacy/pillar_carved,face2-3=0:aether_legacy/pillar_top,face4-5=4000:aether_legacy/pillar_carved
+block:id=%pillar_top,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:aether_legacy/pillar_carved
+
+# %carved_stone:* (carved_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%carved_stone,data=*,stdrot=true,face0-5=0:aether_legacy/carved_stone
+
+# %sentry_stone:* (sentry_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%sentry_stone,data=*,stdrot=true,face0-5=0:aether_legacy/sentry_stone
+
+# %angelic_stone:* (angelic_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%angelic_stone,data=*,stdrot=true,face0-5=0:aether_legacy/angelic_stone
+
+# %light_angelic_stone:* (light_angelic_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%light_angelic_stone,data=*,stdrot=true,face0-5=0:aether_legacy/light_angelic_stone
+
+# %hellfire_stone:* (hellfire_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%hellfire_stone,data=*,stdrot=true,face0-5=0:aether_legacy/hellfire_stone
+
+# %light_hellfire_stone:* (light_hellfire_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%light_hellfire_stone,data=*,stdrot=true,face0-5=0:aether_legacy/light_hellfire_stone
+
+# %locked_carved_stone:* (locked_carved_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%locked_carved_stone,data=*,stdrot=true,face0-5=0:aether_legacy/carved_stone
+
+# %locked_sentry_stone:* (locked_sentry_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%locked_sentry_stone,data=*,stdrot=true,face0-5=0:aether_legacy/sentry_stone
+
+# %locked_angelic_stone:* (locked_angelic_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%locked_angelic_stone,data=*,stdrot=true,face0-5=0:aether_legacy/angelic_stone
+
+# %locked_light_angelic_stone:* (locked_light_angelic_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%locked_light_angelic_stone,data=*,stdrot=true,face0-5=0:aether_legacy/light_angelic_stone
+
+# %locked_hellfire_stone:* (locked_hellfire_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%locked_hellfire_stone,data=*,stdrot=true,face0-5=0:aether_legacy/hellfire_stone
+
+# %locked_light_hellfire_stone:* (locked_light_hellfire_stone), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonBase
+block:id=%locked_light_hellfire_stone,data=*,stdrot=true,face0-5=0:aether_legacy/light_hellfire_stone
+
+# %carved_trap:* (carved_trap), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonTrap
+block:id=%carved_trap,data=*,stdrot=true,face0-5=0:aether_legacy/carved_stone
+
+# %angelic_trap:* (angelic_trap), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonTrap
+block:id=%angelic_trap,data=*,stdrot=true,face0-5=0:aether_legacy/angelic_stone
+
+# %hellfire_trap:* (hellfire_trap), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.dungeon.BlockDungeonTrap
+block:id=%hellfire_trap,data=*,stdrot=true,face0-5=0:aether_legacy/hellfire_stone
+
+# %skyroot_fence:* (skyroot_fence), render=(FENCE), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherFence
+block:id=%skyroot_fence,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/skyroot_planks
+
+# %skyroot_fence_gate:* (skyroot_fence_gate), render=(FENCEGATE), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherFenceGate
+block:id=%skyroot_fence_gate,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/skyroot_planks
+
+# %carved_wall:* (carved_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%carved_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/carved_stone
+
+# %angelic_wall:* (angelic_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%angelic_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/angelic_stone
+
+# %hellfire_wall:* (hellfire_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%hellfire_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/hellfire_stone
+
+# %holystone_wall:* (holystone_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%holystone_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/holystone
+
+# %holystone_brick_wall:* (holystone_brick_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%holystone_brick_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/holystone_brick
+
+# %mossy_holystone_wall:* (mossy_holystone_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%mossy_holystone_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/mossy_holystone
+
+# %aerogel_wall:* (aerogel_wall), render=(WALL), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherWall
+block:id=%aerogel_wall,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:aether_legacy/aerogel
+
+# %carved_stairs:* (carved_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%carved_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/carved_stone
+
+# %angelic_stairs:* (angelic_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%angelic_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/angelic_stone
+
+# %hellfire_stairs:* (hellfire_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%hellfire_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/hellfire_stone
+
+# %skyroot_stairs:* (skyroot_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%skyroot_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/skyroot_planks
+
+# %holystone_stairs:* (holystone_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%holystone_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/holystone
+
+# %holystone_brick_stairs:* (holystone_brick_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%holystone_brick_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/holystone_brick
+
+# %mossy_holystone_stairs:* (mossy_holystone_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%mossy_holystone_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/mossy_holystone
+
+# %aerogel_stairs:* (aerogel_stairs), render=(STAIRS), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherStairs
+block:id=%aerogel_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/aerogel
+
+# %skyroot_double_slab:* (skyroot_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%skyroot_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/skyroot_planks
+
+# %carved_double_slab:* (carved_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%carved_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/carved_stone
+
+# %angelic_double_slab:* (angelic_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%angelic_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/angelic_stone
+
+# %hellfire_double_slab:* (hellfire_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%hellfire_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/hellfire_stone
+
+# %holystone_double_slab:* (holystone_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%holystone_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/holystone
+
+# %mossy_holystone_double_slab:* (mossy_holystone_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%mossy_holystone_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/mossy_holystone
+
+# %holystone_brick_double_slab:* (holystone_brick_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%holystone_brick_double_slab,data=*,stdrot=true,face0-5=0:aether_legacy/holystone_brick
+
+# %aerogel_double_slab:* (aerogel_double_slab), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%aerogel_double_slab,data=*,stdrot=true,face0-5=12000:aether_legacy/aerogel
+
+# %skyroot_slab:* (skyroot_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%skyroot_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/skyroot_planks
+
+# %carved_slab:* (carved_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%carved_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/carved_stone
+
+# %angelic_slab:* (angelic_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%angelic_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/angelic_stone
+
+# %hellfire_slab:* (hellfire_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%hellfire_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/hellfire_stone
+
+# %holystone_slab:* (holystone_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%holystone_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/holystone
+
+# %mossy_holystone_slab:* (mossy_holystone_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%mossy_holystone_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/mossy_holystone
+
+# %holystone_brick_slab:* (holystone_brick_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%holystone_brick_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/holystone_brick
+
+# %aerogel_slab:* (aerogel_slab), render=(STANDARD), opaque=false,cls=com.gildedgames.the_aether.blocks.decorative.BlockAetherSlab
+block:id=%aerogel_slab,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:aether_legacy/aerogel
+
+# %skyroot_bookshelf:* (skyroot_bookshelf), render=(STANDARD), opaque=true,cls=com.gildedgames.the_aether.blocks.decorative.BlockSkyrootBookshelf
+block:id=%skyroot_bookshelf,data=*,stdrot=true,face0-1=0:aether_legacy/skyroot_planks,face2-5=0:aether_legacy/skyroot_bookshelf
+
+# %skyroot_bed:* (skyroot_bed), render=(BED), opaque=false,cls=com.gildedgames.the_aether.blocks.BlockSkyrootBed
+block:id=%skyroot_bed,data=0,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_feet_top,face2=0:aether_legacy/skyroot_bed_feet_end,face3=0:aether_legacy/skyroot_bed_feet_top,face4-5=0:aether_legacy/skyroot_bed_feet_side
+block:id=%skyroot_bed,data=1,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_feet_top,face2-3=0:aether_legacy/skyroot_bed_feet_side,face4=0:aether_legacy/skyroot_bed_feet_top,face5=0:aether_legacy/skyroot_bed_feet_end
+block:id=%skyroot_bed,data=2,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1-2=0:aether_legacy/skyroot_bed_feet_top,face3=0:aether_legacy/skyroot_bed_feet_end,face4-5=0:aether_legacy/skyroot_bed_feet_side
+block:id=%skyroot_bed,data=3,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_feet_top,face2-3=0:aether_legacy/skyroot_bed_feet_side,face4=0:aether_legacy/skyroot_bed_feet_end,face5=0:aether_legacy/skyroot_bed_feet_top
+block:id=%skyroot_bed,data=4,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_feet_top,face2=0:aether_legacy/skyroot_bed_feet_end,face3=0:aether_legacy/skyroot_bed_feet_top,face4-5=0:aether_legacy/skyroot_bed_feet_side
+block:id=%skyroot_bed,data=5,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_feet_top,face2-3=0:aether_legacy/skyroot_bed_feet_side,face4=0:aether_legacy/skyroot_bed_feet_top,face5=0:aether_legacy/skyroot_bed_feet_end
+block:id=%skyroot_bed,data=6,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1-2=0:aether_legacy/skyroot_bed_feet_top,face3=0:aether_legacy/skyroot_bed_feet_end,face4-5=0:aether_legacy/skyroot_bed_feet_side
+block:id=%skyroot_bed,data=7,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_feet_top,face2-3=0:aether_legacy/skyroot_bed_feet_side,face4=0:aether_legacy/skyroot_bed_feet_end,face5=0:aether_legacy/skyroot_bed_feet_top
+block:id=%skyroot_bed,data=8,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1-2=0:aether_legacy/skyroot_bed_head_top,face3=0:aether_legacy/skyroot_bed_head_end,face4-5=0:aether_legacy/skyroot_bed_head_side
+block:id=%skyroot_bed,data=9,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_head_top,face2-3=0:aether_legacy/skyroot_bed_head_side,face4=0:aether_legacy/skyroot_bed_head_end,face5=0:aether_legacy/skyroot_bed_head_top
+block:id=%skyroot_bed,data=10,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_head_top,face2=0:aether_legacy/skyroot_bed_head_end,face3=0:aether_legacy/skyroot_bed_head_top,face4-5=0:aether_legacy/skyroot_bed_head_side
+block:id=%skyroot_bed,data=11,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_head_top,face2-3=0:aether_legacy/skyroot_bed_head_side,face4=0:aether_legacy/skyroot_bed_head_top,face5=0:aether_legacy/skyroot_bed_head_end
+block:id=%skyroot_bed,data=12,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1-2=0:aether_legacy/skyroot_bed_head_top,face3=0:aether_legacy/skyroot_bed_head_end,face4-5=0:aether_legacy/skyroot_bed_head_side
+block:id=%skyroot_bed,data=13,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_head_top,face2-3=0:aether_legacy/skyroot_bed_head_side,face4=0:aether_legacy/skyroot_bed_head_end,face5=0:aether_legacy/skyroot_bed_head_top
+block:id=%skyroot_bed,data=14,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_head_top,face2=0:aether_legacy/skyroot_bed_head_end,face3=0:aether_legacy/skyroot_bed_head_top,face4-5=0:aether_legacy/skyroot_bed_head_side
+block:id=%skyroot_bed,data=15,stdrot=true,transparency=TRANSPARENT,face0=0:aether_legacy/skyroot_planks,face1=0:aether_legacy/skyroot_bed_head_top,face2-3=0:aether_legacy/skyroot_bed_head_side,face4=0:aether_legacy/skyroot_bed_head_top,face5=0:aether_legacy/skyroot_bed_head_end

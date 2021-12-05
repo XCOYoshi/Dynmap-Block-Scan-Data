@@ -1,0 +1,117 @@
+# mobdropcrops 1.7.2a
+version:1.7
+modname:mobdropcrops
+
+
+cfgfile:config/mobdropcrops.cfg
+
+
+texturepath:assets/mobdropcrops/textures/blocks/
+texture:id=mobdropcrops/blaze_stage_0,filename=assets/mobdropcrops/textures/blocks/blaze_stage_0.png
+texture:id=mobdropcrops/blaze_stage_1,filename=assets/mobdropcrops/textures/blocks/blaze_stage_1.png
+texture:id=mobdropcrops/blaze_stage_2,filename=assets/mobdropcrops/textures/blocks/blaze_stage_2.png
+texture:id=mobdropcrops/blaze_stage_3,filename=assets/mobdropcrops/textures/blocks/blaze_stage_3.png
+texture:id=mobdropcrops/bone_stage_0,filename=assets/mobdropcrops/textures/blocks/bone_stage_0.png
+texture:id=mobdropcrops/bone_stage_1,filename=assets/mobdropcrops/textures/blocks/bone_stage_1.png
+texture:id=mobdropcrops/bone_stage_2,filename=assets/mobdropcrops/textures/blocks/bone_stage_2.png
+texture:id=mobdropcrops/bone_stage_3,filename=assets/mobdropcrops/textures/blocks/bone_stage_3.png
+texture:id=mobdropcrops/bush0,filename=assets/mobdropcrops/textures/blocks/bush0.png
+texture:id=mobdropcrops/bush1,filename=assets/mobdropcrops/textures/blocks/bush1.png
+texture:id=mobdropcrops/bush2,filename=assets/mobdropcrops/textures/blocks/bush2.png
+texture:id=mobdropcrops/bush3,filename=assets/mobdropcrops/textures/blocks/bush3.png
+texture:id=mobdropcrops/bush4,filename=assets/mobdropcrops/textures/blocks/bush4.png
+texture:id=mobdropcrops/bush5,filename=assets/mobdropcrops/textures/blocks/bush5.png
+texture:id=mobdropcrops/creeperpodfront,filename=assets/mobdropcrops/textures/blocks/creeperpodfront.png
+texture:id=mobdropcrops/creeperpodother,filename=assets/mobdropcrops/textures/blocks/creeperpodother.png
+texture:id=mobdropcrops/creepervine_1,filename=assets/mobdropcrops/textures/blocks/creepervine_1.png
+texture:id=mobdropcrops/ender_stage_0,filename=assets/mobdropcrops/textures/blocks/ender_stage_0.png
+texture:id=mobdropcrops/ender_stage_1,filename=assets/mobdropcrops/textures/blocks/ender_stage_1.png
+texture:id=mobdropcrops/ender_stage_2,filename=assets/mobdropcrops/textures/blocks/ender_stage_2.png
+texture:id=mobdropcrops/ender_stage_3,filename=assets/mobdropcrops/textures/blocks/ender_stage_3.png
+texture:id=mobdropcrops/eye_stage_0,filename=assets/mobdropcrops/textures/blocks/eye_stage_0.png
+texture:id=mobdropcrops/eye_stage_1,filename=assets/mobdropcrops/textures/blocks/eye_stage_1.png
+texture:id=mobdropcrops/eye_stage_2,filename=assets/mobdropcrops/textures/blocks/eye_stage_2.png
+texture:id=mobdropcrops/eye_stage_3,filename=assets/mobdropcrops/textures/blocks/eye_stage_3.png
+texture:id=mobdropcrops/rotten_stage_0,filename=assets/mobdropcrops/textures/blocks/rotten_stage_0.png
+texture:id=mobdropcrops/rotten_stage_1,filename=assets/mobdropcrops/textures/blocks/rotten_stage_1.png
+texture:id=mobdropcrops/rotten_stage_2,filename=assets/mobdropcrops/textures/blocks/rotten_stage_2.png
+texture:id=mobdropcrops/rotten_stage_3,filename=assets/mobdropcrops/textures/blocks/rotten_stage_3.png
+texture:id=mobdropcrops/slimepad,filename=assets/mobdropcrops/textures/blocks/slimepad.png
+texture:id=mobdropcrops/tear_stage_0,filename=assets/mobdropcrops/textures/blocks/tear_stage_0.png
+texture:id=mobdropcrops/tear_stage_1,filename=assets/mobdropcrops/textures/blocks/tear_stage_1.png
+texture:id=mobdropcrops/tear_stage_2,filename=assets/mobdropcrops/textures/blocks/tear_stage_2.png
+texture:id=mobdropcrops/tear_stage_3,filename=assets/mobdropcrops/textures/blocks/tear_stage_3.png
+
+
+
+# %Mob Drop Bush:* (Mob Drop Bush), render=(CROSSEDSQUARES), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobBush
+block:id=%Mob Drop Bush,data=0,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bush0
+block:id=%Mob Drop Bush,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bush1
+block:id=%Mob Drop Bush,data=2,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bush2
+block:id=%Mob Drop Bush,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bush3
+block:id=%Mob Drop Bush,data=4,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bush4
+block:id=%Mob Drop Bush,data=5,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bush5
+
+# %Blaze Crop:* (Blaze Crop), render=(CROPS), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobCrop
+block:id=%Blaze Crop,data=0,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/blaze_stage_0
+block:id=%Blaze Crop,data=2,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/blaze_stage_1
+block:id=%Blaze Crop,data=4,data=5,data=6,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/blaze_stage_2
+block:id=%Blaze Crop,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/blaze_stage_3
+
+# %Bone Crop:* (Bone Crop), render=(CROPS), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobCrop
+block:id=%Bone Crop,data=0,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bone_stage_0
+block:id=%Bone Crop,data=2,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bone_stage_1
+block:id=%Bone Crop,data=4,data=5,data=6,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bone_stage_2
+block:id=%Bone Crop,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/bone_stage_3
+
+# %Ender Crop:* (Ender Crop), render=(CROPS), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobCrop
+block:id=%Ender Crop,data=0,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/ender_stage_0
+block:id=%Ender Crop,data=2,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/ender_stage_1
+block:id=%Ender Crop,data=4,data=5,data=6,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/ender_stage_2
+block:id=%Ender Crop,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/ender_stage_3
+
+# %Eye Crop:* (Eye Crop), render=(CROPS), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobCrop
+block:id=%Eye Crop,data=0,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/eye_stage_0
+block:id=%Eye Crop,data=2,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/eye_stage_1
+block:id=%Eye Crop,data=4,data=5,data=6,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/eye_stage_2
+block:id=%Eye Crop,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/eye_stage_3
+
+# %Rotten Crop:* (Rotten Crop), render=(CROPS), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobCrop
+block:id=%Rotten Crop,data=0,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/rotten_stage_0
+block:id=%Rotten Crop,data=2,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/rotten_stage_1
+block:id=%Rotten Crop,data=4,data=5,data=6,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/rotten_stage_2
+block:id=%Rotten Crop,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/rotten_stage_3
+
+# %Tear Crop:* (Tear Crop), render=(CROPS), opaque=false,cls=com.pam.mobdropcrops.BlockPamMobCrop
+block:id=%Tear Crop,data=0,data=1,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/tear_stage_0
+block:id=%Tear Crop,data=2,data=3,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/tear_stage_1
+block:id=%Tear Crop,data=4,data=5,data=6,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/tear_stage_2
+block:id=%Tear Crop,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:mobdropcrops/tear_stage_3
+
+# %Creeper Vine:* (Creeper Vine), render=(STEM), opaque=false,cls=com.pam.mobdropcrops.BlockPamCreeperVine
+block:id=%Creeper Vine,data=0,stdrot=true,transparency=TRANSPARENT,colorMult=00FF00,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=1,stdrot=true,transparency=TRANSPARENT,colorMult=20F704,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=2,stdrot=true,transparency=TRANSPARENT,colorMult=40EF08,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=3,stdrot=true,transparency=TRANSPARENT,colorMult=60E70C,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=4,stdrot=true,transparency=TRANSPARENT,colorMult=80DF10,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=5,stdrot=true,transparency=TRANSPARENT,colorMult=A0D714,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=6,stdrot=true,transparency=TRANSPARENT,colorMult=C0CF18,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=7,stdrot=true,transparency=TRANSPARENT,colorMult=E0C71C,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=8,stdrot=true,transparency=TRANSPARENT,colorMult=100BF20,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=9,stdrot=true,transparency=TRANSPARENT,colorMult=120B724,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=10,stdrot=true,transparency=TRANSPARENT,colorMult=140AF28,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=11,stdrot=true,transparency=TRANSPARENT,colorMult=160A72C,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=12,stdrot=true,transparency=TRANSPARENT,colorMult=1809F30,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=13,stdrot=true,transparency=TRANSPARENT,colorMult=1A09734,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=14,stdrot=true,transparency=TRANSPARENT,colorMult=1C08F38,face0-5=17000:mobdropcrops/creepervine_1
+block:id=%Creeper Vine,data=15,stdrot=true,transparency=TRANSPARENT,colorMult=1E0873C,face0-5=17000:mobdropcrops/creepervine_1
+
+# %Creeper Pod:* (Creeper Pod), render=(STANDARD), opaque=false,cls=com.pam.mobdropcrops.BlockPamCreeperPod
+block:id=%Creeper Pod,data=0,stdrot=true,face0-2=0:mobdropcrops/creeperpodother,face3=0:mobdropcrops/creeperpodfront,face4-5=0:mobdropcrops/creeperpodother
+block:id=%Creeper Pod,data=1,stdrot=true,face0-3=0:mobdropcrops/creeperpodother,face4=0:mobdropcrops/creeperpodfront,face5=0:mobdropcrops/creeperpodother
+block:id=%Creeper Pod,data=2,stdrot=true,face0-1=0:mobdropcrops/creeperpodother,face2=0:mobdropcrops/creeperpodfront,face3-5=0:mobdropcrops/creeperpodother
+block:id=%Creeper Pod,data=3,stdrot=true,face0-4=0:mobdropcrops/creeperpodother,face5=0:mobdropcrops/creeperpodfront
+block:id=%Creeper Pod,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:mobdropcrops/creeperpodother
+
+# %Slime Pad:* (Slime Pad), render=(STANDARD), opaque=false,cls=com.pam.mobdropcrops.BlockPamSlimePadCrop
+block:id=%Slime Pad,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:mobdropcrops/slimepad

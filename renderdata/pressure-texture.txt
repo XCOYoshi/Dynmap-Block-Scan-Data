@@ -1,0 +1,136 @@
+# pressure 1.3.0.fix1
+version:1.7
+modname:pressure
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/pressure/textures/blocks/
+texture:id=pressure/checkvalve/front,filename=assets/pressure/textures/blocks/checkvalve/front.png
+texture:id=pressure/checkvalve/side_off,filename=assets/pressure/textures/blocks/checkvalve/side_off.png
+texture:id=pressure/checkvalve/side_on,filename=assets/pressure/textures/blocks/checkvalve/side_on.png
+texture:id=pressure/creative,filename=assets/pressure/textures/blocks/creative.png
+texture:id=pressure/drain/back,filename=assets/pressure/textures/blocks/drain/back.png
+texture:id=pressure/drain/front,filename=assets/pressure/textures/blocks/drain/front.png
+texture:id=pressure/drain/side,filename=assets/pressure/textures/blocks/drain/side.png
+texture:id=pressure/input/back,filename=assets/pressure/textures/blocks/input/back.png
+texture:id=pressure/input/front,filename=assets/pressure/textures/blocks/input/front.png
+texture:id=pressure/input/side_off,filename=assets/pressure/textures/blocks/input/side_off.png
+texture:id=pressure/input/side_on,filename=assets/pressure/textures/blocks/input/side_on.png
+texture:id=pressure/output/back,filename=assets/pressure/textures/blocks/output/back.png
+texture:id=pressure/output/front,filename=assets/pressure/textures/blocks/output/front.png
+texture:id=pressure/output/side,filename=assets/pressure/textures/blocks/output/side.png
+texture:id=pressure/pipe,filename=assets/pressure/textures/blocks/pipe.png
+texture:id=pressure/pipesensor/front,filename=assets/pressure/textures/blocks/pipesensor/front.png
+texture:id=pressure/pipesensor/side_off,filename=assets/pressure/textures/blocks/pipesensor/side_off.png
+texture:id=pressure/pipesensor/side_on,filename=assets/pressure/textures/blocks/pipesensor/side_on.png
+texture:id=pressure/pump/back,filename=assets/pressure/textures/blocks/pump/back.png
+texture:id=pressure/pump/front,filename=assets/pressure/textures/blocks/pump/front.png
+texture:id=pressure/pump/side_off,filename=assets/pressure/textures/blocks/pump/side_off.png
+texture:id=pressure/pump/side_on,filename=assets/pressure/textures/blocks/pump/side_on.png
+texture:id=pressure/router/main,filename=assets/pressure/textures/blocks/router/main.png
+texture:id=pressure/sluice/back,filename=assets/pressure/textures/blocks/sluice/back.png
+texture:id=pressure/sluice/front,filename=assets/pressure/textures/blocks/sluice/front.png
+texture:id=pressure/sluice/side,filename=assets/pressure/textures/blocks/sluice/side.png
+texture:id=pressure/tank/sensor/back,filename=assets/pressure/textures/blocks/tank/sensor/back.png
+texture:id=pressure/tank/sensor/front_off,filename=assets/pressure/textures/blocks/tank/sensor/front_off.png
+texture:id=pressure/tank/sensor/front_on,filename=assets/pressure/textures/blocks/tank/sensor/front_on.png
+texture:id=pressure/tank/sensor/side_off,filename=assets/pressure/textures/blocks/tank/sensor/side_off.png
+texture:id=pressure/tank/sensor/side_on,filename=assets/pressure/textures/blocks/tank/sensor/side_on.png
+texture:id=pressure/tank/tankblock/main,filename=assets/pressure/textures/blocks/tank/tankblock/main.png
+texture:id=pressure/tank/tankcontroller/bottom,filename=assets/pressure/textures/blocks/tank/tankcontroller/bottom.png
+texture:id=pressure/tank/tankcontroller/main,filename=assets/pressure/textures/blocks/tank/tankcontroller/main.png
+texture:id=pressure/tank/tankcontroller/top,filename=assets/pressure/textures/blocks/tank/tankcontroller/top.png
+texture:id=pressure/tank/tankdataport/main,filename=assets/pressure/textures/blocks/tank/tankdataport/main.png
+texture:id=pressure/tank/tankfilter/main,filename=assets/pressure/textures/blocks/tank/tankfilter/main.png
+texture:id=pressure/tank/tankfluidaccess/main,filename=assets/pressure/textures/blocks/tank/tankfluidaccess/main.png
+texture:id=pressure/tank/tankfluidautooutput/main,filename=assets/pressure/textures/blocks/tank/tankfluidautooutput/main.png
+texture:id=pressure/tank/tankfluidinput/main,filename=assets/pressure/textures/blocks/tank/tankfluidinput/main.png
+texture:id=pressure/tank/tankfluidoutput/main,filename=assets/pressure/textures/blocks/tank/tankfluidoutput/main.png
+texture:id=pressure/tank/tankindicator/main,filename=assets/pressure/textures/blocks/tank/tankindicator/main.png
+texture:id=pressure/tank/tankindicator/single,filename=assets/pressure/textures/blocks/tank/tankindicator/single.png
+texture:id=pressure/tank/tankinterface/main,filename=assets/pressure/textures/blocks/tank/tankinterface/main.png
+texture:id=pressure/tank/tankpressureinput/main,filename=assets/pressure/textures/blocks/tank/tankpressureinput/main.png
+texture:id=pressure/tank/tankpressureoutput/main,filename=assets/pressure/textures/blocks/tank/tankpressureoutput/main.png
+texture:id=pressure/water,filename=assets/pressure/textures/blocks/water.png
+
+
+
+# %Pipe:* (Pipe), render=net.bdew.pressure.render.PipeRenderer$(CUSTOM), opaque=false,cls=net.bdew.pressure.blocks.BlockPipe$
+block:id=%Pipe,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:pressure/pipe
+
+# %CheckValve:* (CheckValve), render=net.bdew.pressure.render.ValveRenderer$(CUSTOM), opaque=false,cls=net.bdew.pressure.blocks.valves.check.BlockCheckValve$
+block:id=%CheckValve,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,transparency=TRANSPARENT,face0-1=0:pressure/checkvalve/side_off,face2-3=0:pressure/checkvalve/front,face4-5=0:pressure/checkvalve/side_off
+block:id=%CheckValve,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-1=0:pressure/checkvalve/side_on,face2-3=0:pressure/checkvalve/front,face4-5=0:pressure/checkvalve/side_on
+
+# %PipeSensor:* (PipeSensor), render=net.bdew.pressure.render.ValveRenderer$(CUSTOM), opaque=false,cls=net.bdew.pressure.blocks.valves.sensor.BlockPipeSensor$
+block:id=%PipeSensor,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,transparency=TRANSPARENT,face0-1=0:pressure/pipesensor/side_off,face2-3=0:pressure/pipesensor/front,face4-5=0:pressure/pipesensor/side_off
+block:id=%PipeSensor,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-1=0:pressure/pipesensor/side_on,face2-3=0:pressure/pipesensor/front,face4-5=0:pressure/pipesensor/side_on
+
+# %Pump:* (Pump), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.pump.BlockPump$
+block:id=%Pump,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,face0=0:pressure/pump/back,face1=0:pressure/pump/front,face2-5=0:pressure/pump/side_off
+block:id=%Pump,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0=0:pressure/pump/back,face1=0:pressure/pump/front,face2-5=0:pressure/pump/side_on
+
+# %Output:* (Output), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.output.BlockOutput$
+block:id=%Output,data=*,stdrot=true,face0=0:pressure/output/back,face1=0:pressure/output/front,face2-5=0:pressure/output/side
+
+# %Input:* (Input), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.input.BlockInput$
+block:id=%Input,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,face0=0:pressure/input/back,face1=0:pressure/input/front,face2-5=0:pressure/input/side_off
+block:id=%Input,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0=0:pressure/input/back,face1=0:pressure/input/front,face2-5=0:pressure/input/side_on
+
+# %Water:* (Water), render=(STANDARD), opaque=true,cls=net.bdew.pressure.blocks.source.BlockWaterSource$
+block:id=%Water,data=*,stdrot=true,face0-5=0:pressure/water
+
+# %Creative:* (Creative), render=net.bdew.pressure.render.FilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.source.BlockCreativeSource$
+block:id=%Creative,data=*,stdrot=true,face0-5=0:pressure/creative
+
+# %Drain:* (Drain), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.drain.BlockDrain$
+block:id=%Drain,data=*,stdrot=true,face0=0:pressure/drain/back,face1=0:pressure/drain/front,face2-5=0:pressure/drain/side
+
+# %Sluice:* (Sluice), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.drain.BlockSluice$
+block:id=%Sluice,data=*,stdrot=true,face0=0:pressure/sluice/back,face1=0:pressure/sluice/front,face2-5=0:pressure/sluice/side
+
+# %TankController:* (TankController), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.controller.BlockTankController$
+block:id=%TankController,data=*,stdrot=true,face0=0:pressure/tank/tankcontroller/bottom,face1=0:pressure/tank/tankcontroller/top,face2-5=0:pressure/tank/tankcontroller/main
+
+# %Router:* (Router), render=net.bdew.pressure.blocks.router.RouterRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.router.BlockRouter$
+block:id=%Router,data=*,stdrot=true,face0-5=0:pressure/router/main
+
+# %TankBlock:* (TankBlock), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankBlock$
+block:id=%TankBlock,data=*,stdrot=true,face0-5=0:pressure/tank/tankblock/main
+
+# %TankIndicator:* (TankIndicator), render=net.bdew.pressure.blocks.tank.blocks.TankIndicatorRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankIndicator$
+block:id=%TankIndicator,data=*,stdrot=true,face0-1=0:pressure/tank/tankindicator/main,face2-5=0:pressure/tank/tankindicator/single
+
+# %TankFluidOutput:* (TankFluidOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidOutput$
+block:id=%TankFluidOutput,data=*,stdrot=true,face0-5=0:pressure/tank/tankfluidoutput/main
+
+# %TankFluidAutoOutput:* (TankFluidAutoOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidAutoOutput$
+block:id=%TankFluidAutoOutput,data=*,stdrot=true,face0-5=0:pressure/tank/tankfluidautooutput/main
+
+# %TankFluidInput:* (TankFluidInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidInput$
+block:id=%TankFluidInput,data=*,stdrot=true,face0-5=0:pressure/tank/tankfluidinput/main
+
+# %TankFluidAccess:* (TankFluidAccess), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidAccess$
+block:id=%TankFluidAccess,data=*,stdrot=true,face0-5=0:pressure/tank/tankfluidaccess/main
+
+# %TankPressureOutput:* (TankPressureOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockPressureOutput$
+block:id=%TankPressureOutput,data=*,stdrot=true,face0-5=0:pressure/tank/tankpressureoutput/main
+
+# %TankPressureInput:* (TankPressureInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockPressureInput$
+block:id=%TankPressureInput,data=*,stdrot=true,face0-5=0:pressure/tank/tankpressureinput/main
+
+# %TankInterface:* (TankInterface), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankInterface$
+block:id=%TankInterface,data=*,stdrot=true,face0-5=0:pressure/tank/tankinterface/main
+
+# %TankFilter:* (TankFilter), render=net.bdew.pressure.blocks.tank.blocks.TankFilterRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankFilter$
+block:id=%TankFilter,data=*,stdrot=true,face0-5=0:pressure/tank/tankfilter/main
+
+# %Sensor:* (Sensor), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.sensor.BlockSensor$
+block:id=%Sensor,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,face0=0:pressure/tank/sensor/back,face1=0:pressure/tank/sensor/front_off,face2-5=0:pressure/tank/sensor/side_off
+block:id=%Sensor,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0=0:pressure/tank/sensor/back,face1=0:pressure/tank/sensor/front_on,face2-5=0:pressure/tank/sensor/side_on
+
+# %TankDataPort:* (TankDataPort), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockDataPort$
+block:id=%TankDataPort,data=*,stdrot=true,face0-5=0:pressure/tank/tankdataport/main

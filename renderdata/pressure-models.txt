@@ -1,0 +1,83 @@
+# pressure 1.3.0.fix1
+version:1.7
+modname:pressure
+
+
+
+# Configuration file not found!
+
+patch:id=VertX1Z0ToX0Z1,Ox=1.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0,visibility=flip
+patch:id=VertX025,Ox=0.25,Oy=0.0,Oz=1.0,Ux=0.25,Uy=0.0,Uz=0.0,Vx=0.25,Vy=1.0,Vz=1.0
+patch:id=VertX075,Ox=0.75,Oy=0.0,Oz=1.0,Ux=0.75,Uy=0.0,Uz=0.0,Vx=0.75,Vy=1.0,Vz=1.0
+patch:id=HorizY001ZTop,Ox=0.0,Oy=0.01,Oz=0.0,Ux=1.0,Uy=0.01,Uz=0.0,Vx=0.0,Vy=0.01,Vz=1.0
+patch:id=SlopeXUpZTop,Ox=0.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0
+patch:id=VertX0In,Ox=0.0,Oy=0.0,Oz=1.0,Ux=0.0,Uy=0.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0
+patch:id=VertX04375,Ox=0.4375,Oy=0.0,Oz=0.0,Ux=0.4375,Uy=0.0,Uz=1.0,Vx=0.4375,Vy=1.0,Vz=0.0,visibility=top
+patch:id=TorchSide1,Ox=-0.5,Oy=0.2,Oz=0.4375,Ux=0.5,Uy=0.2,Uz=0.4375,Vx=-0.1,Vy=1.2,Vz=0.4375,Vmax=0.8,visibility=bottom
+patch:id=TorchSide2,Ox=-0.5,Oy=0.2,Oz=0.5625,Ux=0.5,Uy=0.2,Uz=0.5625,Vx=-0.1,Vy=1.2,Vz=0.5625,Vmax=0.8,visibility=top
+patch:id=TorchSide3,Ox=0.0625,Oy=0.2,Oz=0.0,Ux=0.0625,Uy=0.2,Uz=1.0,Vx=0.4625,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=bottom
+patch:id=TorchSide4,Ox=-0.0625,Oy=0.2,Oz=0.0,Ux=-0.0625,Uy=0.2,Uz=1.0,Vx=0.3375,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=top
+patch:id=TorchTop,Ox=0.0,Oy=0.625,Oz=-0.0625,Ux=1.0,Uy=0.625,Uz=-0.0625,Vx=0.0,Vy=0.625,Vz=0.9375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=TorchTopSlope,Ox=0.0,Oy=0.825,Oz=-0.3625,Ux=1.0,Uy=0.825,Uz=-0.3625,Vx=0.0,Vy=0.825,Vz=0.6375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=VertX00625,Ox=0.0625,Oy=0.0,Oz=0.0,Ux=0.0625,Uy=0.0,Uz=1.0,Vx=0.0625,Vy=1.0,Vz=0.0,visibility=top
+patch:id=HorizY100ZTop,Ox=0.0,Oy=1.0,Oz=0.0,Ux=1.0,Uy=1.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0,visibility=bottom
+
+
+# %Pipe:* (Pipe), render=net.bdew.pressure.render.PipeRenderer$(CUSTOM), opaque=false,cls=net.bdew.pressure.blocks.BlockPipe$
+boxblock:id=%Pipe,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.20000000298023224,zmax=0.800000011920929,data=*
+
+# %CheckValve:* (CheckValve), render=net.bdew.pressure.render.ValveRenderer$(CUSTOM), opaque=false,cls=net.bdew.pressure.blocks.valves.check.BlockCheckValve$
+boxblock:id=%CheckValve,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.125,ymax=0.875,zmin=0.20000000298023224,zmax=0.800000011920929,data=0,data=1
+boxblock:id=%CheckValve,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.125,zmax=0.875,data=2,data=3
+boxblock:id=%CheckValve,xmin=0.125,xmax=0.875,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.20000000298023224,zmax=0.800000011920929,data=4,data=5,data=6,data=7
+boxblock:id=%CheckValve,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.125,ymax=0.875,zmin=0.20000000298023224,zmax=0.800000011920929,data=8,data=9
+boxblock:id=%CheckValve,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.125,zmax=0.875,data=10,data=11
+boxblock:id=%CheckValve,xmin=0.125,xmax=0.875,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.20000000298023224,zmax=0.800000011920929,data=12,data=13,data=14,data=15
+
+# %PipeSensor:* (PipeSensor), render=net.bdew.pressure.render.ValveRenderer$(CUSTOM), opaque=false,cls=net.bdew.pressure.blocks.valves.sensor.BlockPipeSensor$
+boxblock:id=%PipeSensor,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.125,ymax=0.875,zmin=0.20000000298023224,zmax=0.800000011920929,data=0,data=1
+boxblock:id=%PipeSensor,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.125,zmax=0.875,data=2,data=3
+boxblock:id=%PipeSensor,xmin=0.125,xmax=0.875,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.20000000298023224,zmax=0.800000011920929,data=4,data=5,data=6,data=7
+boxblock:id=%PipeSensor,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.125,ymax=0.875,zmin=0.20000000298023224,zmax=0.800000011920929,data=8,data=9
+boxblock:id=%PipeSensor,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.125,zmax=0.875,data=10,data=11
+boxblock:id=%PipeSensor,xmin=0.125,xmax=0.875,ymin=0.20000000298023224,ymax=0.800000011920929,zmin=0.20000000298023224,zmax=0.800000011920929,data=12,data=13,data=14,data=15
+
+# %Pump:* (Pump), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.pump.BlockPump$
+
+# %Output:* (Output), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.output.BlockOutput$
+
+# %Input:* (Input), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.input.BlockInput$
+
+# %Creative:* (Creative), render=net.bdew.pressure.render.FilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.source.BlockCreativeSource$
+
+# %Drain:* (Drain), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.drain.BlockDrain$
+
+# %Sluice:* (Sluice), render=net.bdew.pressure.render.RotatedFilterableBlockRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.drain.BlockSluice$
+
+# %TankController:* (TankController), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.controller.BlockTankController$
+
+# %Router:* (Router), render=net.bdew.pressure.blocks.router.RouterRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.router.BlockRouter$
+
+# %TankBlock:* (TankBlock), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankBlock$
+
+# %TankIndicator:* (TankIndicator), render=net.bdew.pressure.blocks.tank.blocks.TankIndicatorRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankIndicator$
+
+# %TankFluidOutput:* (TankFluidOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidOutput$
+
+# %TankFluidAutoOutput:* (TankFluidAutoOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidAutoOutput$
+
+# %TankFluidInput:* (TankFluidInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidInput$
+
+# %TankFluidAccess:* (TankFluidAccess), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockFluidAccess$
+
+# %TankPressureOutput:* (TankPressureOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockPressureOutput$
+
+# %TankPressureInput:* (TankPressureInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockPressureInput$
+
+# %TankInterface:* (TankInterface), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankInterface$
+
+# %TankFilter:* (TankFilter), render=net.bdew.pressure.blocks.tank.blocks.TankFilterRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockTankFilter$
+
+# %Sensor:* (Sensor), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.sensor.BlockSensor$
+
+# %TankDataPort:* (TankDataPort), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.pressure.blocks.tank.blocks.BlockDataPort$

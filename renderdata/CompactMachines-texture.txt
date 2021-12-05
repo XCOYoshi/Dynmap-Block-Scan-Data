@@ -1,0 +1,49 @@
+# CompactMachines 1.7.10-1.21
+version:1.7
+modname:CompactMachines
+
+
+cfgfile:config/CompactMachines.cfg
+
+
+texturepath:assets/compactmachines/textures/blocks/
+texture:id=compactmachines/innerwall,filename=assets/compactmachines/textures/blocks/innerwall.png
+texture:id=compactmachines/interface,filename=assets/compactmachines/textures/blocks/interface.png
+texture:id=compactmachines/machine_0,filename=assets/compactmachines/textures/blocks/machine_0.png
+texture:id=compactmachines/machine_1,filename=assets/compactmachines/textures/blocks/machine_1.png
+texture:id=compactmachines/machine_2,filename=assets/compactmachines/textures/blocks/machine_2.png
+texture:id=compactmachines/machine_3,filename=assets/compactmachines/textures/blocks/machine_3.png
+texture:id=compactmachines/machine_4,filename=assets/compactmachines/textures/blocks/machine_4.png
+texture:id=compactmachines/machine_5,filename=assets/compactmachines/textures/blocks/machine_5.png
+texture:id=compactmachines/resizingcube,filename=assets/compactmachines/textures/blocks/resizingcube.png
+
+
+
+# %machine:* (machine), render=(STANDARD), opaque=true,cls=org.dave.CompactMachines.block.BlockMachine
+block:id=%machine,data=0,stdrot=true,face0-5=0:compactmachines/machine_0
+block:id=%machine,data=1,stdrot=true,face0-5=0:compactmachines/machine_1
+block:id=%machine,data=2,stdrot=true,face0-5=0:compactmachines/machine_2
+block:id=%machine,data=3,stdrot=true,face0-5=0:compactmachines/machine_3
+block:id=%machine,data=4,stdrot=true,face0-5=0:compactmachines/machine_4
+block:id=%machine,data=5,stdrot=true,face0-5=0:compactmachines/machine_5
+
+# %interface:* (interface), render=(STANDARD), opaque=false,cls=org.dave.CompactMachines.block.BlockInterface
+block:id=%interface,data=*,stdrot=true,face0-5=0:compactmachines/interface
+
+# %innerwall:* (innerwall), render=(STANDARD), opaque=false,cls=org.dave.CompactMachines.block.BlockInnerWall
+block:id=%innerwall,data=*,stdrot=true,face0-5=0:compactmachines/innerwall
+
+# %innerwalldecor:* (innerwalldecor), render=(STANDARD), opaque=true,cls=org.dave.CompactMachines.block.BlockInnerWallDecorative
+block:id=%innerwalldecor,data=*,stdrot=true,face0-5=0:compactmachines/innerwall
+
+# %resizingcube:* (resizingcube), render=(STANDARD), opaque=true,cls=org.dave.CompactMachines.block.BlockResizingCube
+block:id=%resizingcube,data=*,stdrot=true,face0-5=0:compactmachines/resizingcube
+
+# %interfacedecor:* (interfacedecor), render=(STANDARD), opaque=true,cls=org.dave.CompactMachines.block.BlockInterfaceDecorative
+block:id=%interfacedecor,data=*,stdrot=true,face0-5=0:compactmachines/interface
+
+# %interfacecreative:* (interfacecreative), render=(STANDARD), opaque=true,cls=org.dave.CompactMachines.block.BlockInterfaceCreative
+block:id=%interfacecreative,data=*,stdrot=true,face0-5=0:compactmachines/interface
+
+# %innerwallcreative:* (innerwallcreative), render=(STANDARD), opaque=true,cls=org.dave.CompactMachines.block.BlockInnerWallCreative
+block:id=%innerwallcreative,data=*,stdrot=true,face0-5=0:compactmachines/innerwall

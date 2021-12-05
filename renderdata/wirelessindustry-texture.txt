@@ -1,0 +1,128 @@
+# wirelessindustry 0.7.9.6
+version:1.7
+modname:wirelessindustry
+
+
+cfgfile:config/wirelessindustry.cfg
+
+
+texturepath:assets/wirelessindustry/textures/blocks/
+texture:id=wirelessindustry/absorbtionsp_top,filename=assets/wirelessindustry/textures/blocks/absorbtionsp_top.png
+texture:id=wirelessindustry/adsp_side,filename=assets/wirelessindustry/textures/blocks/adsp_side.png
+texture:id=wirelessindustry/adsp_top,filename=assets/wirelessindustry/textures/blocks/adsp_top.png
+texture:id=wirelessindustry/all_bottom,filename=assets/wirelessindustry/textures/blocks/all_bottom.png
+texture:id=wirelessindustry/asp_side,filename=assets/wirelessindustry/textures/blocks/asp_side.png
+texture:id=wirelessindustry/asp_top,filename=assets/wirelessindustry/textures/blocks/asp_top.png
+texture:id=wirelessindustry/blockArmorCharger,filename=assets/wirelessindustry/textures/blocks/blockArmorCharger.png
+texture:id=wirelessindustry/blockCreativePedestal2,filename=assets/wirelessindustry/textures/blocks/blockCreativePedestal2.png
+texture:id=wirelessindustry/blockIridiumMachine,filename=assets/wirelessindustry/textures/blocks/blockIridiumMachine.png
+texture:id=wirelessindustry/blockLampCharger2,filename=assets/wirelessindustry/textures/blocks/blockLampCharger2.png
+texture:id=wirelessindustry/blockMatterCollector,filename=assets/wirelessindustry/textures/blocks/blockMatterCollector.png
+texture:id=wirelessindustry/blockVajraCharger,filename=assets/wirelessindustry/textures/blocks/blockVajraCharger.png
+texture:id=wirelessindustry/blockXPMachine,filename=assets/wirelessindustry/textures/blocks/blockXPMachine.png
+texture:id=wirelessindustry/blockXPgen_side_bottom,filename=assets/wirelessindustry/textures/blocks/blockXPgen_side_bottom.png
+texture:id=wirelessindustry/bsp_side,filename=assets/wirelessindustry/textures/blocks/bsp_side.png
+texture:id=wirelessindustry/bsp_top,filename=assets/wirelessindustry/textures/blocks/bsp_top.png
+texture:id=wirelessindustry/expgen_top,filename=assets/wirelessindustry/textures/blocks/expgen_top.png
+texture:id=wirelessindustry/hsp_side,filename=assets/wirelessindustry/textures/blocks/hsp_side.png
+texture:id=wirelessindustry/hsp_top,filename=assets/wirelessindustry/textures/blocks/hsp_top.png
+texture:id=wirelessindustry/nsp_side,filename=assets/wirelessindustry/textures/blocks/nsp_side.png
+texture:id=wirelessindustry/nsp_top,filename=assets/wirelessindustry/textures/blocks/nsp_top.png
+texture:id=wirelessindustry/pfp_converter_side,filename=assets/wirelessindustry/textures/blocks/pfp_converter_side.png
+texture:id=wirelessindustry/pfp_converter_top_bottom,filename=assets/wirelessindustry/textures/blocks/pfp_converter_top_bottom.png
+texture:id=wirelessindustry/phsp_top,filename=assets/wirelessindustry/textures/blocks/phsp_top.png
+texture:id=wirelessindustry/proton_sp_side,filename=assets/wirelessindustry/textures/blocks/proton_sp_side.png
+texture:id=wirelessindustry/psp_top,filename=assets/wirelessindustry/textures/blocks/psp_top.png
+texture:id=wirelessindustry/qgen_wireless_active_side,filename=assets/wirelessindustry/textures/blocks/qgen_wireless_active_side.png
+texture:id=wirelessindustry/qsp_side,filename=assets/wirelessindustry/textures/blocks/qsp_side.png
+texture:id=wirelessindustry/qsp_top,filename=assets/wirelessindustry/textures/blocks/qsp_top.png
+texture:id=wirelessindustry/spsp_top,filename=assets/wirelessindustry/textures/blocks/spsp_top.png
+texture:id=wirelessindustry/ssp_top,filename=assets/wirelessindustry/textures/blocks/ssp_top.png
+texture:id=wirelessindustry/uhsp_side,filename=assets/wirelessindustry/textures/blocks/uhsp_side.png
+texture:id=wirelessindustry/usp_top,filename=assets/wirelessindustry/textures/blocks/usp_top.png
+texture:id=wirelessindustry/wireless_absorbtionsp_side,filename=assets/wirelessindustry/textures/blocks/wireless_absorbtionsp_side.png
+texture:id=wirelessindustry/wireless_photonicsp_side,filename=assets/wirelessindustry/textures/blocks/wireless_photonicsp_side.png
+texture:id=wirelessindustry/wireless_singularsp_side,filename=assets/wirelessindustry/textures/blocks/wireless_singularsp_side.png
+texture:id=wirelessindustry/wireless_spsp_side,filename=assets/wirelessindustry/textures/blocks/wireless_spsp_side.png
+texture:id=wirelessindustry/wirelessitemcharger_bottom_top,filename=assets/wirelessindustry/textures/blocks/wirelessitemcharger_bottom_top.png
+texture:id=wirelessindustry/wirelessitemcharger_private_side_active,filename=assets/wirelessindustry/textures/blocks/wirelessitemcharger_private_side_active.png
+texture:id=wirelessindustry/wirelessitemcharger_public_side_active,filename=assets/wirelessindustry/textures/blocks/wirelessitemcharger_public_side_active.png
+texture:id=wirelessindustry/wreceiverpersonal,filename=assets/wirelessindustry/textures/blocks/wreceiverpersonal.png
+texture:id=wirelessindustry/xpsender_side_all,filename=assets/wirelessindustry/textures/blocks/xpsender_side_all.png
+
+
+
+# %WASPPersonal:* (WASPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessASP
+block:id=%WASPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/asp_top,face2-5=0:wirelessindustry/asp_side
+
+# %WHSPPersonal:* (WHSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessHSP
+block:id=%WHSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/hsp_top,face2-5=0:wirelessindustry/hsp_side
+
+# %WUHSPPersonal:* (WUHSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessUHSP
+block:id=%WUHSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/usp_top,face2-5=0:wirelessindustry/uhsp_side
+
+# %WQSPPersonal:* (WQSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessQSP
+block:id=%WQSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/qsp_top,face2-5=0:wirelessindustry/qsp_side
+
+# %WSpSPPersonal:* (WSpSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessSpSPPersonal
+block:id=%WSpSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/spsp_top,face2-5=0:wirelessindustry/wireless_spsp_side
+
+# %WProtonSPPersonal:* (WProtonSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessProtonSP
+block:id=%WProtonSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/psp_top,face2-5=0:wirelessindustry/proton_sp_side
+
+# %WSingSPPersonal:* (WSingSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessSingSPPersonal
+block:id=%WSingSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/ssp_top,face2-5=0:wirelessindustry/wireless_singularsp_side
+
+# %WAbsSPPersonal:* (WAbsSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessAbsSPPersonal
+block:id=%WAbsSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/absorbtionsp_top,face2-5=0:wirelessindustry/wireless_absorbtionsp_side
+
+# %WPhSPPersonal:* (WPhSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessPhSPPersonal
+block:id=%WPhSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/phsp_top,face2-5=0:wirelessindustry/wireless_photonicsp_side
+
+# %WNeuSPPersonal:* (WNeuSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessNeuSPPersonal
+block:id=%WNeuSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/nsp_top,face2-5=0:wirelessindustry/nsp_side
+
+# %WBarionSPPersonal:* (WBarionSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessBarionSP
+block:id=%WBarionSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/bsp_top,face2-5=0:wirelessindustry/bsp_side
+
+# %WAdronSPPersonal:* (WAdronSPPersonal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessAdronSP
+block:id=%WAdronSPPersonal,data=*,stdrot=true,face0=0:wirelessindustry/all_bottom,face1=0:wirelessindustry/adsp_top,face2-5=0:wirelessindustry/adsp_side
+
+# %WRes1Personal:* (WRes1Personal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWStoragePersonal
+block:id=%WRes1Personal,data=*,stdrot=true,face0-5=0:wirelessindustry/wreceiverpersonal
+
+# %PFPConverter:* (PFPConverter), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockPFPConverter
+block:id=%PFPConverter,data=*,stdrot=true,face0-1=0:wirelessindustry/pfp_converter_top_bottom,face2-5=0:wirelessindustry/pfp_converter_side
+
+# %WChargerPublic:* (WChargerPublic), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessChargerPublic
+block:id=%WChargerPublic,data=*,stdrot=true,face0-1=0:wirelessindustry/wirelessitemcharger_bottom_top,face2-5=0:wirelessindustry/wirelessitemcharger_public_side_active
+
+# %WChargerPrivate:* (WChargerPrivate), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessChargerPrivate
+block:id=%WChargerPrivate,data=*,stdrot=true,face0-1=0:wirelessindustry/wirelessitemcharger_bottom_top,face2-5=0:wirelessindustry/wirelessitemcharger_private_side_active
+
+# %CreativePedestal:* (CreativePedestal), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockCreativePedestal
+block:id=%CreativePedestal,data=*,stdrot=true,face0-5=0:wirelessindustry/blockCreativePedestal2
+
+# %MachinesCharger:* (MachinesCharger), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockMachinesCharger
+block:id=%MachinesCharger,data=*,stdrot=true,face0-5=0:wirelessindustry/blockLampCharger2
+
+# %WirelessQGen:* (WirelessQGen), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockWirelessQuantumGenerator
+block:id=%WirelessQGen,data=*,stdrot=true,face0-5=0:wirelessindustry/qgen_wireless_active_side
+
+# %LiquidMatterCollector:* (LiquidMatterCollector), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockMatterCollector
+block:id=%LiquidMatterCollector,data=*,stdrot=true,face0-5=0:wirelessindustry/blockMatterCollector
+
+# %ExpSender1:* (ExpSender1), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockXPSenderElectric
+block:id=%ExpSender1,data=*,stdrot=true,face0-1=0:wirelessindustry/blockXPMachine,face2-5=0:wirelessindustry/xpsender_side_all
+
+# %ExpGen:* (ExpGen), render=(STANDARD), opaque=false,cls=ru.wirelesstools.fluidmachines.BlockExpGen
+block:id=%ExpGen,data=0,stdrot=true,transparency=TRANSPARENT,face0=0:wirelessindustry/blockXPgen_side_bottom,face1=0:wirelessindustry/expgen_top,face2-5=0:wirelessindustry/blockXPgen_side_bottom
+
+# %IridMach:* (IridMach), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockIridiumMachine
+block:id=%IridMach,data=*,stdrot=true,face0-5=0:wirelessindustry/blockIridiumMachine
+
+# %WCh:* (WCh), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockVajraCharger
+block:id=%WCh,data=*,stdrot=true,face0-5=0:wirelessindustry/blockVajraCharger
+
+# %ArCh:* (ArCh), render=(STANDARD), opaque=true,cls=ru.wirelesstools.blocks.BlockArmorCharger
+block:id=%ArCh,data=*,stdrot=true,face0-5=0:wirelessindustry/blockArmorCharger

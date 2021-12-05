@@ -1,0 +1,20 @@
+# ewysworkshop Ewy's Workshop-1.7.10-1.1.5
+version:1.7
+modname:ewysworkshop
+
+
+cfgfile:config/ewysworkshop.cfg
+
+
+texturepath:assets/ewysworkshop/textures/blocks/
+texture:id=production/back,filename=assets/production/textures/blocks/back.png
+texture:id=production/bot,filename=assets/production/textures/blocks/bot.png
+texture:id=production/front0,filename=assets/production/textures/blocks/front0.png
+texture:id=production/left,filename=assets/production/textures/blocks/left.png
+texture:id=production/right,filename=assets/production/textures/blocks/right.png
+texture:id=production/top,filename=assets/production/textures/blocks/top.png
+
+
+
+# %WorkshopTable:* (WorkshopTable), render=(STANDARD), opaque=true,cls=com.ewyboy.ewysworkshop.block.BlockWorkshopTable
+block:id=%WorkshopTable,data=*,stdrot=true,face0=0:production/bot,face1=0:production/top,face2=0:production/front0,face3=0:production/back,face4=0:production/right,face5=0:production/left

@@ -1,0 +1,53 @@
+# Eln @VERSION@
+version:1.7
+modname:Eln
+
+
+cfgfile:config/Eln.cfg
+
+
+texturepath:assets/eln/textures/blocks/
+texture:id=eln/air,filename=assets/eln/textures/blocks/air.png
+texture:id=eln/cinnabarore,filename=assets/eln/textures/blocks/cinnabarore.png
+texture:id=eln/computerprobe_xn,filename=assets/eln/textures/blocks/computerprobe_xn.png
+texture:id=eln/computerprobe_xp,filename=assets/eln/textures/blocks/computerprobe_xp.png
+texture:id=eln/computerprobe_yn,filename=assets/eln/textures/blocks/computerprobe_yn.png
+texture:id=eln/computerprobe_yp,filename=assets/eln/textures/blocks/computerprobe_yp.png
+texture:id=eln/computerprobe_zn,filename=assets/eln/textures/blocks/computerprobe_zn.png
+texture:id=eln/computerprobe_zp,filename=assets/eln/textures/blocks/computerprobe_zp.png
+texture:id=eln/copperore,filename=assets/eln/textures/blocks/copperore.png
+texture:id=eln/elntoic2lvu_eln2,filename=assets/eln/textures/blocks/elntoic2lvu_eln2.png
+texture:id=eln/elntoic2lvu_ic2,filename=assets/eln/textures/blocks/elntoic2lvu_ic2.png
+texture:id=eln/elntoic2lvu_side,filename=assets/eln/textures/blocks/elntoic2lvu_side.png
+texture:id=eln/leadore,filename=assets/eln/textures/blocks/leadore.png
+texture:id=eln/tungstenore,filename=assets/eln/textures/blocks/tungstenore.png
+texture:id=minecraft/iron_block,filename=assets/minecraft/textures/blocks/iron_block.png
+
+
+
+# %Eln.ghostBlock:* (Eln.ghostBlock), render=(CUSTOM), opaque=false,cls=mods.eln.ghost.GhostBlock
+block:id=%Eln.ghostBlock,data=*,stdrot=true,face0-5=0:minecraft/iron_block
+
+# %Eln.SixNode:* (Eln.SixNode), render=(STANDARD), opaque=false,cls=mods.eln.node.six.SixNodeBlock
+block:id=%Eln.SixNode,data=*,stdrot=true,face0-5=0:eln/air
+
+# %Eln.TransparentNode:* (Eln.TransparentNode), render=(CUSTOM), opaque=false,cls=mods.eln.node.transparent.TransparentNodeBlock
+block:id=%Eln.TransparentNode,data=*,stdrot=true,face0-5=0:minecraft/iron_block
+
+# %Eln.Ore:* (Eln.Ore), render=(STANDARD), opaque=true,cls=mods.eln.ore.OreBlock
+block:id=%Eln.Ore,data=1,stdrot=true,face0-5=0:eln/copperore
+block:id=%Eln.Ore,data=4,stdrot=true,face0-5=0:eln/leadore
+block:id=%Eln.Ore,data=5,stdrot=true,face0-5=0:eln/tungstenore
+block:id=%Eln.Ore,data=6,stdrot=true,face0-5=0:eln/cinnabarore
+
+# %eln.EnergyConverterElnToOtherLVUBlock:* (eln.EnergyConverterElnToOtherLVUBlock), render=(STANDARD), opaque=true,cls=mods.eln.simplenode.energyconverter.EnergyConverterElnToOtherBlock
+block:id=%eln.EnergyConverterElnToOtherLVUBlock,data=*,stdrot=true,face0-3=0:eln/elntoic2lvu_side,face4=0:eln/elntoic2lvu_ic2,face5=0:eln/elntoic2lvu_eln2
+
+# %eln.EnergyConverterElnToOtherMVUBlock:* (eln.EnergyConverterElnToOtherMVUBlock), render=(STANDARD), opaque=true,cls=mods.eln.simplenode.energyconverter.EnergyConverterElnToOtherBlock
+block:id=%eln.EnergyConverterElnToOtherMVUBlock,data=*,stdrot=true,face0-3=0:eln/elntoic2lvu_side,face4=0:eln/elntoic2lvu_ic2,face5=0:eln/elntoic2lvu_eln2
+
+# %eln.EnergyConverterElnToOtherHVUBlock:* (eln.EnergyConverterElnToOtherHVUBlock), render=(STANDARD), opaque=true,cls=mods.eln.simplenode.energyconverter.EnergyConverterElnToOtherBlock
+block:id=%eln.EnergyConverterElnToOtherHVUBlock,data=*,stdrot=true,face0-3=0:eln/elntoic2lvu_side,face4=0:eln/elntoic2lvu_ic2,face5=0:eln/elntoic2lvu_eln2
+
+# %eln.ElnProbe:* (eln.ElnProbe), render=(STANDARD), opaque=true,cls=mods.eln.simplenode.computerprobe.ComputerProbeBlock
+block:id=%eln.ElnProbe,data=*,stdrot=true,face0=0:eln/computerprobe_yn,face1=0:eln/computerprobe_yp,face2=0:eln/computerprobe_zn,face3=0:eln/computerprobe_zp,face4=0:eln/computerprobe_xn,face5=0:eln/computerprobe_xp
